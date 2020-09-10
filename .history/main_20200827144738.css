@@ -1,0 +1,108 @@
+/* 滾動指示器 */
+.scroll-indicator-controller {
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 20px;
+    z-index: 2;
+    padding: 60px 0px 0 1.4%;
+    background-color: #fff100c2;
+}
+@media (max-width:1024px) {
+    .scroll-indicator-controller {
+        right: 10px
+    }
+}
+
+.scroll-indicator-controller>div {
+    position: relative;
+    margin: 0 0 60px;
+    cursor: pointer;
+    transition: background .4s ease;
+    will-change: transition;
+    writing-mode: vertical-lr;
+}
+
+.scroll-indicator-controller>div>span {
+    color: black;
+    right: calc(100% + 8px);
+    white-space: nowrap;
+    top: -1px;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+    transform: translateX(10px);
+    transition: all .4s ease;
+    will-change: transition
+}
+
+@media (hover:hover),
+(-ms-high-contrast:none),
+(-ms-high-contrast:active) {
+    .scroll-indicator-controller>div:hover {
+        width: 2px;
+        height: 60px;
+        background-color: white;
+        opacity: 1;
+        overflow: visible;
+        transform: translateX(0);
+        writing-mode: vertical-lr;
+        transform-origin: bottom right;
+        transform: scaleX(1);
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+    .scroll-indicator-controller>div {
+        transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+    }
+}
+/* 滾動指示器 ende */
+
+/* banner */
+#main {position: relative;}
+#main .banner-content .row {position: relative;max-width: 1200px;margin: 0 auto;}
+.banner-background {position: absolute;top: 0;right: 0;width: calc(40% + 200px);height: 640px;overflow: hidden;}
+.Visualize {position: absolute;z-index: 444;left: 0;bottom: -4px;}
+.banner-svg ul {padding: 0;}
+.banner-svg ul li {list-style: none;}
+.banner-svg ul li svg {animation:drift 16s linear infinite;}
+
+@keyframes drift {
+    from {transform: translatey(-400px);}
+    to {transform: translatey(0px);}
+}
+
+
+
+
+
+
+
+
+
+
+.borderLeftRight {
+    display: inline-block;
+    position: relative;
+    color: hsl(222, 25%, 14%);
+  }
+  
+  .borderLeftRight::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: hsl(243, 80%, 62%);
+    transform-origin: bottom right;
+    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  
+  .borderLeftRight:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  

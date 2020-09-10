@@ -1,0 +1,56 @@
+/* 滾動指示器 */
+.scroll-indicator-controller {
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 20px;
+    z-index: 2
+}
+@media (max-width:1024px) {
+    .scroll-indicator-controller {
+        right: 10px
+    }
+}
+
+.scroll-indicator-controller>div {
+    position: relative;
+    margin: 0 0 60px;
+    cursor: pointer;
+    transition: background .4s ease;
+    will-change: transition;
+    writing-mode: vertical-lr;
+}
+
+.scroll-indicator-controller>div>span {
+    color: tomato;
+    right: calc(100% + 8px);
+    white-space: nowrap;
+    top: -1px;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+    transform: translateX(10px);
+    transition: all .4s ease;
+    will-change: transition
+}
+
+@media (hover:hover),
+(-ms-high-contrast:none),
+(-ms-high-contrast:active) {
+    .scroll-indicator-controller>div:hover {
+        width: 6px;
+        height: 10px;
+        background-color: tomato;
+        opacity: 1;
+        overflow: visible;
+        transform: translateX(0);
+        writing-mode: vertical-lr;
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+    .scroll-indicator-controller>div {
+        transition: opacity .4s ease
+    }
+}
+/* 滾動指示器 ende */

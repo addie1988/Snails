@@ -1,0 +1,82 @@
+/* 字體 */
+@font-face {
+    font-family: MADE;
+    src: url(fonts/MADE.ttf);
+  }
+
+/* 滾動指示器 */
+
+/* 滾動指示器 ende */
+
+/* 箭頭 */
+ .Instructions {
+   position: absolute;
+   right: 4.5%;
+   bottom: 33rem;
+   margin: 0 auto;
+}
+
+.arrow-round {
+    width: 16px;
+    height: 16px;
+    border-radius: 999rem;
+    border: 1px solid black;
+    animation: move 1.3s infinite;
+    margin: 9px 8px;
+}
+  
+.arrow {
+    width: 30px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(45deg);
+    animation: move 1.3s infinite;
+}
+  
+@for $i from 1 through 2 {
+    .arrow:nth-child(#{$i + 1}) {
+      animation-delay: 0.15 * $i + s;
+    }
+}
+  
+@keyframes move {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(40px) rotate(45deg);
+    }
+}
+  
+/* 箭頭 end */
+
+/* banner */
+#header {position: relative;margin: 0 auto;}
+header-content {position: relative;max-width: 1200px;margin: 0 auto;}
+#main .banner-content .row .col-6:nth-child(1) {padding: 4.5rem 5rem;}
+#main .banner-content .row .col-6:nth-child(1) h1 {font-family: unset;font-size: 164px;line-height: 1;color: #fff100b8;}
+#main .banner-content .row .col-6:nth-child(1) p {font-family: MADE;font-size: 99px;}
+.banner-background {position: absolute;top: 0;right: 0;width: calc(40% + 200px);height: 640px;overflow: hidden;z-index: -444;}
+.Visualize {position: absolute;z-index: 444;left: 0;bottom: -4px;}
+.banner-svg ul {padding: 0;}
+.banner-svg ul li {list-style: none;}
+.banner-svg ul li svg {animation:drift 16s linear infinite;}
+
+@keyframes drift {
+    from {transform: translatey(-400px);}
+    to {transform: translatey(0px);}
+}
+
+
+
+
+
+
+
+
+

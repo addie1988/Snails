@@ -1,0 +1,113 @@
+/* 字體 */
+@font-face {
+    font-family: MADE;
+    src: url(fonts/MADE.ttf);
+  }
+
+/* 滾動指示器 */
+
+/* 滾動指示器 ende */
+
+/* 箭頭 */
+ .Instructions {
+   position: absolute;
+   right: 4.5%;
+   bottom: 5rem;
+   margin: 0 auto;
+}
+
+.arrow-round {
+    width: 16px;
+    height: 16px;
+    border-radius: 999rem;
+    border: 1px solid black;
+    animation: move 1.3s infinite;
+    margin: 9px 8px;
+}
+  
+.arrow {
+    width: 30px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(45deg);
+    animation: move 1.3s infinite;
+}
+  
+@for $i from 1 through 2 {
+    .arrow:nth-child(#{$i + 1}) {
+      animation-delay: 0.15 * $i + s;
+    }
+}
+  
+@keyframes move {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(40px) rotate(45deg);
+    }
+}
+  
+/* 箭頭 end */
+
+/* banner */
+#header {position: relative;margin: 0 auto;}
+#header .header-content {position: relative;max-width: 1200px;margin: 0 auto;}
+#header .header-content .row .col-6:nth-child(1) {padding: 40px 24px;}
+#header .header-content .row .col-6:nth-child(1) h1 {font-family: unset;font-size: 162px;line-height: 1;color: #fff100b8;margin: 0;}
+#header .header-content .row .col-6:nth-child(1) p {font-family: MADE;font-size: 99px;margin: 0;}
+#header .header-background {position: absolute;top: 0;right: 0;width: calc(40% + 100px);height: 100%;overflow: hidden;z-index: -444;}
+.header-Visualize {position: absolute;z-index: 444;left: 0;bottom: -4px;}
+.header-Visualize img {max-width: 100%;}
+.header-background ul {padding: 0;}
+.header-background ul li {list-style: none;}
+.header-background ul li svg {animation:drift 16s linear infinite;}
+.header-Brand-background {position: fixed;width: 100%;}
+.header-Brand-svg {position: absolute;opacity: 0.6;bottom: 0;z-index: -999999;width: 100%;}
+
+@keyframes drift {
+    from {transform: translatey(-400px);}
+    to {transform: translatey(0px);}
+}
+
+@media (max-width: 768px) {
+    #header .header-content .row .col-6:nth-child(1) h1 {font-size: 20vw;}
+    #header .header-content .row .col-6:nth-child(1) p {font-size: 14vw;}
+}
+
+@media (max-width: 480px) {
+    #header .header-content .row .col-6 {flex: 0 0 100%;max-width: 100%;}
+    .header-Visualize {position: initial;}
+    #header .header-background {position: absolute;right: 0;top: 44vh;width: calc(60% + 100px);}
+    #header .header-content .row .col-6:nth-child(1) {padding: 40px;}
+    #header .header-content .row .col-6:nth-child(1) h1 {font-size: 19vw;}
+    #header .header-content .row .col-6:nth-child(1) p {font-size: 14vw;}
+    .header-Brand-background {top: 53vh;}
+    .header-Brand-svg {width: 130vh;}
+}
+
+
+
+
+
+
+
+/* 選單 */
+.Menu {position: fixed;margin: 0 auto;display: contents;width: 60px;height: 562px;}
+.Menu-content {max-width: 1200px;margin: 0 auto;position: relative;}
+.Menu-project {width: 30px;position: absolute;right: 0;background-color: #fff100;padding: 30px 30px;}
+.Menu-project a {text-decoration: none;transition: all 150ms linear 0s;}
+.Menu-project a:hover {text-decoration: none;color: white;}
+.label {writing-mode: vertical-rl;text-orientation: sideways;margin: 30px 0;color: black;}
+.label::before {content: "";width: 2px;height: 0px;background-color: white;display: flex;transition: height 2s;position: absolute;right: 30px;}
+.label:hover:before {height: 80px;display: block;}
+
+
+
+
+

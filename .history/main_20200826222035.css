@@ -1,0 +1,67 @@
+/* 滾動指示器 */
+.scroll-indicator-controller {
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 20px;
+    z-index: 2;
+    padding: 60px 0px 0 1.4%;
+    background-color: #fff100c2;
+}
+@media (max-width:1024px) {
+    .scroll-indicator-controller {
+        right: 10px
+    }
+}
+
+.scroll-indicator-controller>div {
+    position: relative;
+    margin: 0 0 60px;
+    cursor: pointer;
+    transition: background .4s ease;
+    will-change: transition;
+    writing-mode: vertical-lr;
+}
+
+.scroll-indicator-controller>div>span {
+    color: black;
+    right: calc(100% + 8px);
+    white-space: nowrap;
+    top: -1px;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+    transform: translateX(10px);
+    transition: all .4s ease;
+    will-change: transition
+}
+
+@media (hover:hover),
+(-ms-high-contrast:none),
+(-ms-high-contrast:active) {
+    .scroll-indicator-controller>div:hover {
+        border-left: 2px solid white;
+        opacity: 1;
+        overflow: visible;
+        transform: translateX(0);
+        writing-mode: vertical-lr;
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+    .scroll-indicator-controller>div {
+        transition: opacity .4s ease
+    }
+}
+/* 滾動指示器 ende */
+
+/* banner */
+#main {position: relative;}
+#main .banner-content .row {position: relative;max-width: 1200px;margin: 0 auto;}
+.banner-background {position: absolute;top: 0;right: 0;width: calc(40% + 200px);height: 640px;overflow: hidden;}
+.banner-background svg {animation-duration: 6ms;animation:drift 60s linear infinite;}
+
+@keyframes drift {
+    from {transform: translatey(1920px);}
+    to {transform: translatey(0px);}
+}

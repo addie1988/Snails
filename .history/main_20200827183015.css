@@ -1,0 +1,129 @@
+/* 字體 */
+@font-face {
+    font-family: Gentium;
+    src: url(fonts/FRAHV.TTF);
+    src: url(fonts/MADE.ttf);
+  }
+
+/* 滾動指示器 */
+.scroll-indicator-controller {
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 20px;
+    z-index: 2;
+    padding: 60px 0px 0 1.4%;
+    background-color: #fff100c2;
+}
+@media (max-width:1024px) {
+    .scroll-indicator-controller {
+        right: 10px
+    }
+}
+
+.scroll-indicator-controller>div {
+    position: relative;
+    height: 40px;
+    margin: 0 0 60px;
+    cursor: pointer;
+    will-change: transition;
+    writing-mode: vertical-lr;
+    transition: height 1s;
+}
+
+.scroll-indicator-controller>div>span {
+    color: black;
+    right: calc(100% + 8px);
+    white-space: nowrap;
+    top: -1px;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+}
+
+@media (hover:hover),
+(-ms-high-contrast:none),
+(-ms-high-contrast:active) {
+    .scroll-indicator-controller>div:hover {
+        width: 2px;
+        height: 70px;
+        background-color: white;
+        opacity: 1;
+        overflow: visible;
+        writing-mode: vertical-lr;
+        
+    }
+}
+/* 滾動指示器 ende */
+
+/* 箭頭 */
+ .Instructions {
+   position: absolute;
+   right: 2%;
+   bottom: -19rem;
+   margin: 0 auto;
+}
+
+.arrow-round {
+    width: 16px;
+    height: 16px;
+    border-radius: 999rem;
+    border: 1px solid black;
+    animation: move 1.3s infinite;
+    margin: 9px 8px;
+}
+  
+.arrow {
+    width: 30px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(45deg);
+    animation: move 1.3s infinite;
+}
+  
+@for $i from 1 through 2 {
+    .arrow:nth-child(#{$i + 1}) {
+      animation-delay: 0.15 * $i + s;
+    }
+}
+  
+@keyframes move {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(40px) rotate(45deg);
+    }
+}
+  
+/* 箭頭 end */
+
+/* banner */
+#main {position: relative;}
+#main .banner-content .row {position: relative;max-width: 1200px;margin: 0 auto;}
+#main .banner-content .row .col-6:nth-child(1) {padding: 12.5rem 0;}
+#main .banner-content .row .col-6:nth-child(1) h1 {font-family: FRAHV, serif;}
+.banner-background {position: absolute;top: 0;right: 0;width: calc(40% + 200px);height: 640px;overflow: hidden;}
+.Visualize {position: absolute;z-index: 444;left: 0;bottom: -4px;}
+.banner-svg ul {padding: 0;}
+.banner-svg ul li {list-style: none;}
+.banner-svg ul li svg {animation:drift 16s linear infinite;}
+
+@keyframes drift {
+    from {transform: translatey(-400px);}
+    to {transform: translatey(0px);}
+}
+
+
+
+
+
+
+
+
+
