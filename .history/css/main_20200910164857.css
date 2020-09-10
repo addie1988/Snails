@@ -279,7 +279,6 @@ label:hover {cursor: pointer;}
 
 @media (max-width: 480px) {
   #works .works-content .row {padding: 60px 0 0;}
-  #works .works-content .row .col-6 .works-title {position: relative;}
   #works .works-content .row .col-6 .works-title h4 {position: initial;padding: 0 0 30px;font-size: 50px;}
   #works .works-content .row .works-title::after {left: calc(45% + 20px);top: 52px;}
   #works .works-content .row .col-6 .More {top: 8px;}
