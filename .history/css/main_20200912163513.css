@@ -84,7 +84,7 @@
 #top .top-content .row .col-6:nth-child(1) p {font-family: MADE;font-size: 99px;margin: 0 22px;}
 #top .top-content .row .col-6:nth-child(2) {display: flex;flex-wrap: wrap;align-items: flex-end;}
 #top .top-content .row .col-6:nth-child(2) .top-Instructions {padding: 40px 0 0;}
-#top .top-background {position: absolute;top: 0;left: 52%;width: calc(40% + 100px);height: 100%;overflow: hidden;z-index: -444;}
+#top .top-background {position: absolute;top: 0;right: -100%;width: calc(180% + 100px);height: 100%;overflow: hidden;z-index: -444;}
 .top-Visualize {position: relative;z-index: -4;left: 0;}
 .top-Visualize img {max-width: 100%;}
 .top-background ul {padding: 0;}
