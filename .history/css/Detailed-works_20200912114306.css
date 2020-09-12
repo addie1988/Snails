@@ -6,7 +6,7 @@
 
 
 /* 箭頭 */
-.Instructions {position: absolute;right: 26px;bottom: 7rem;margin: 0 auto;}
+.Instructions {position: absolute;right: 5.5%;bottom: 7rem;margin: 0 auto;}
 .arrow-round {width: 10px;height: 10px;border-radius: 999rem;border: 1px solid black;animation: move 1.3s infinite;margin: 4px 3px;}
 .arrow {width: 16px;height: 16px;border-bottom: 1px solid black;border-right: 1px solid black;transform: rotate(45deg);animation: move 1.3s infinite;margin: -9px 0 0;}
   
@@ -31,7 +31,7 @@
 /* 箭頭 end */
 
 @media (max-width: 480px) {
-  .Instructions {bottom: -11rem;right: 26px}
+  .Instructions {bottom: -11rem;}
 }
 
 /* 選單 */
