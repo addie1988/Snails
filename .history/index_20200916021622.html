@@ -30,6 +30,7 @@
 
 <body>
     <div class="load">
+        <div class="loader-svg"></div>
         <div class="loader-content">
             <div class="loader-one">
                 <section><img src="./images/loader-logo.png"></section>
@@ -236,13 +237,14 @@
     <!-- loading -->
     <script>
         function myload() {
-            $(".load").fadeOut(1000);
+            $(".load").fadeOut(2000);
         }
         window.onload = myload;
     </script>
 
     <!-- svg -->
     <script>
+        $(".loader-svg").load("svg/top-Brand-svg.html #圖層_1");
         $(".top-Brand-svg").load("svg/top-Brand-svg.html #圖層_1");
         $(".attentive").load("svg/attentive.html #圖層_1");
         $(".top-background").load("svg/top-background.html #top-background");

@@ -26,6 +26,9 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- loading -->
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 
 <body>
@@ -249,6 +252,29 @@
         $(".service-background").load("svg/service-background.html #service-background");
     </script>
 
+
+    <script>
+        $(document).ready(function () {
+
+            $('.service-Collapse').each(function () {
+                var $dropdown = $(this);
+
+                $(".service-Collapse", $dropdown).click(function (e) {
+                    e.preventDefault();
+                    var visibleTest = $(".service-Collapse", $dropdown).is(':visible');
+                    $(".service-Collapse").hide();
+                    if (!visibleTest) $(".service-Collapse", $dropdown).toggle();
+                    return false;
+                });
+
+            });
+
+            $('html').click(function () {
+                $(".service-Collapse").hide();
+            });
+
+        });
+    </script>
 </body>
 
 </html>

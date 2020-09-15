@@ -5,8 +5,8 @@
 }
 
 /* loading */
-.load {position: fixed;background: #fff100;width: 100%;height: 100%;z-index: 99999;top: 0;left: 0;display: flex;justify-content: center;    align-items: center;right: 0;bottom: 0;}
-.loader-content {width: 160px;height: 160px;position: relative;}
+.load {position: relative;background: #fff100;width: 100%;height: 100%;z-index: 99999;top: 0;left: 0;display: flex;justify-content: center;    align-items: center;}
+.loader-content {width: 160px;height: 160px;position: fixed;}
 .loader-one section {position: absolute;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;}
 .loader-one section img {max-width: 60%;max-height: 60%;}
 .loader-one section:nth-child(2) {-webkit-animation: loading 2s infinite linear;-moz-animation: loading 2s infinite linear; -o-animation: loading 2s infinite linear;animation: loading 2s infinite linear;border: 14px solid white;border-radius: 999rem;border-style: dotted;border-color: #fff100 #fff100 #fff100 white;border-bottom: thin;}

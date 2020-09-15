@@ -26,6 +26,9 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- loading -->
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 
 <body>
@@ -247,6 +250,20 @@
         $(".attentive").load("svg/attentive.html #圖層_1");
         $(".top-background").load("svg/top-background.html #top-background");
         $(".service-background").load("svg/service-background.html #service-background");
+    </script>
+
+
+    <script>
+        $(function () {
+            // $(".service-Collapse").accordion({
+            //     collapsible: true,
+            //     active: false
+            // });
+            $('.service-Collapse label').each(function(i, e){
+                console.log(e)
+                e.click()
+            })
+        });
     </script>
 
 </body>

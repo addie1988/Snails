@@ -249,6 +249,16 @@
         $(".service-background").load("svg/service-background.html #service-background");
     </script>
 
+
+<script type="text/javascript">
+    $(function(){
+        $('div.input').foldpanel({
+            init: true,     // 初始第一个展开, 默认为 true
+            time: 400,      // panel展开动画时间, 默认为 300ms
+            dbclose: true,      // 在此点击关闭, 默认为 true
+        });
+    })
+    </script>
 </body>
 
 </html>
