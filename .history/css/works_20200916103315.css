@@ -31,7 +31,7 @@
 
 
 /* 箭頭 */
-.Instructions {position: absolute;right: 0.5%;bottom: 7rem;margin: 0 auto;z-index: 4;}
+.Instructions {position: absolute;right: 0.5%;bottom: 7rem;margin: 0 auto;}
 .arrow-round {width: 10px;height: 10px;border-radius: 999rem;border: 1px solid black;animation: move 1.3s infinite;margin: 4px 3px;}
 .arrow {width: 16px;height: 16px;border-bottom: 1px solid black;border-right: 1px solid black;transform: rotate(45deg);animation: move 1.3s infinite;margin: -9px 0 0;}
   
@@ -83,7 +83,7 @@
 #header .header-content .row .col-6:nth-child(1) p {font-family: MADE;font-size: 99px;margin: 0 22px;}
 #header .header-content .row .col-6:nth-child(2) {display: flex;flex-wrap: wrap;align-items: flex-end;}
 #header .header-content .row .col-6:nth-child(2) .header-Instructions {padding: 40px 0 0;}
-#header .header-background {position: absolute;top: 0;right: 0;width: calc(42% + 100px);height: 100%;overflow: hidden;}
+#header .header-background {position: absolute;top: 0;right: 0;width: calc(42% + 100px);height: 100%;overflow: hidden;z-index: -5;}
 .header-background ul {padding: 0;background-color: white;}
 .header-background ul li {list-style: none;}
 .header-background ul li svg {animation:drift 16s linear infinite;}
@@ -109,7 +109,7 @@
     #header .header-background {position: absolute;right: 0;width: calc(62% + 100px);height: calc(40% + 100px);top: calc(40% + 100px);}
     #header .header-content .row .col-6:nth-child(1) {padding: 40px 40px 0;}
     #header .header-content .row .col-6:nth-child(1) h1 {font-size: 16vw;line-height: 0.8;}
-    #header .header-content .row .col-6:nth-child(1) p {font-size: 14vw;position: relative;z-index: 4;margin: 0;padding: 0 14px;}
+    #header .header-content .row .col-6:nth-child(1) p {font-size: 14vw;}
     #header .header-content .row .col-6:nth-child(1) .header-Brand .header-logo {padding: 20px 0;}
     .header-Brand-background {left: -8vw;}
     .header-Brand-svg {width: 140vh;right: 0;}
@@ -122,7 +122,7 @@
 .main {position: relative;margin: 0 auto;}
 .main-content {max-width: 1200px;margin: 0 auto;}
 .mail {position: relative;}
-.mail-content {position: fixed;height: 100%;background-color: white;z-index: 99999999;top: 25vh;padding: 10px 1%;opacity: 0.6;}
+.mail-content {position: fixed;height: 100%;background-color: white;z-index: 55;top: 25vh;padding: 10px 1%;opacity: 0.6;}
 .mail-icon img {width: 100%;}
 .mail-detailed {writing-mode: vertical-lr}
 .main-Linear  {display: flex;justify-content: center;padding: 10px 0;}
@@ -141,7 +141,7 @@
 #works .works-content {max-width: 1200px;margin: 0 auto;}
 #works .works-content .row {padding: 100px 0 0;margin-left: 0;margin-right: 0;}
 #works .works-content .row .col {padding-right: 0;padding-left: 0;flex: 0 0 100%;max-width: 100%;}
-#works .works-content .row .col #filters {position: relative;z-index: 6666;}
+#works .works-content .row .col #filters {-webkit-animation-name: "left"; /*动画名称，需要跟@keyframes定义的名称一致*/ -webkit-animation-duration: 4s;/*动画持续的时间长*/ -webkit-animation-iteration-count: 1;/*动画循环播放的次数为1 infinite为无限次*/}
 #portfoliolist a img {transform:scale(1,1);transition: all 1s ease-out;}
 #portfoliolist .portfolio:hover img {transform:scale(1.2,1.2);}
 #works .works-content .row .col .works-title h4 {position: absolute; left: 74px;font-size: 69px;margin: 0;color: #fff100;top: -94px;}
@@ -170,7 +170,8 @@
   #works .works-content .row {padding: 0;}
   #works .works-content .row .col-6 .works-title h4 {position: initial;padding: 0 0 30px;font-size: 50px;}
   #works .works-content .row .works-title::after {left: calc(45% + 20px);top: 47px;}
-  #works .works-content .row .col-6 .More {top: 8px;z-index: 8;}
+  #works .works-content .row .col-6 .More {top: 8px;}
+}
 
 
 /* footer */
@@ -180,3 +181,27 @@
 .footer-content .row .col {font-size: 13px;}
 .footer-content .row .col p {margin: 0;}
 /* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

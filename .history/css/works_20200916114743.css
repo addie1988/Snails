@@ -109,7 +109,7 @@
     #header .header-background {position: absolute;right: 0;width: calc(62% + 100px);height: calc(40% + 100px);top: calc(40% + 100px);}
     #header .header-content .row .col-6:nth-child(1) {padding: 40px 40px 0;}
     #header .header-content .row .col-6:nth-child(1) h1 {font-size: 16vw;line-height: 0.8;}
-    #header .header-content .row .col-6:nth-child(1) p {font-size: 14vw;position: relative;z-index: 4;margin: 0;padding: 0 14px;}
+    #header .header-content .row .col-6:nth-child(1) p {font-size: 14vw;position: relative;z-index: 4;}
     #header .header-content .row .col-6:nth-child(1) .header-Brand .header-logo {padding: 20px 0;}
     .header-Brand-background {left: -8vw;}
     .header-Brand-svg {width: 140vh;right: 0;}
@@ -141,7 +141,7 @@
 #works .works-content {max-width: 1200px;margin: 0 auto;}
 #works .works-content .row {padding: 100px 0 0;margin-left: 0;margin-right: 0;}
 #works .works-content .row .col {padding-right: 0;padding-left: 0;flex: 0 0 100%;max-width: 100%;}
-#works .works-content .row .col #filters {position: relative;z-index: 6666;}
+#works .works-content .row .col #filters {-webkit-animation-name: "left"; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;}
 #portfoliolist a img {transform:scale(1,1);transition: all 1s ease-out;}
 #portfoliolist .portfolio:hover img {transform:scale(1.2,1.2);}
 #works .works-content .row .col .works-title h4 {position: absolute; left: 74px;font-size: 69px;margin: 0;color: #fff100;top: -94px;}
@@ -171,6 +171,7 @@
   #works .works-content .row .col-6 .works-title h4 {position: initial;padding: 0 0 30px;font-size: 50px;}
   #works .works-content .row .works-title::after {left: calc(45% + 20px);top: 47px;}
   #works .works-content .row .col-6 .More {top: 8px;z-index: 8;}
+}
 
 
 /* footer */
@@ -180,3 +181,27 @@
 .footer-content .row .col {font-size: 13px;}
 .footer-content .row .col p {margin: 0;}
 /* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

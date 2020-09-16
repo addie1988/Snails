@@ -50,7 +50,7 @@
 
 
 /* 箭頭 */
-.Instructions {position: absolute;right: 0;bottom: 7rem;margin: 0 auto;z-index: 4;}
+.Instructions {position: absolute;right: 0;bottom: 7rem;margin: 0 auto;}
 .arrow-round {width: 10px;height: 10px;border-radius: 999rem;border: 1px solid black;animation: move 1.3s infinite;margin: 4px 3px;}
 .arrow {width: 16px;height: 16px;border-bottom: 1px solid black;border-right: 1px solid black;transform: rotate(45deg);animation: move 1.3s infinite;margin: -9px 0 0;}
   
@@ -79,7 +79,7 @@
 }
 
 /* 選單 */
-.Menu {position: relative;width: 100%;display: flex;justify-content: flex-end;z-index: 8888;}
+.Menu {position: relative;width: 100%;display: flex;justify-content: flex-end;z-index: 777;}
 .Menu-content {margin: 0 auto;width: 30px;position: fixed;top: 110px;background-color: #fff100;padding: 30px 20px;opacity: 0.3;}
 .Menu-content:hover {opacity: 1.0;}
 .Menu-project a {text-decoration: none;transition: all 150ms linear 0s;}
@@ -99,12 +99,12 @@
 #top .top-content .row  {margin-left: 0;margin-right: 0;}
 #top .top-content .row .col-6 {padding-left: 0;padding-right: 0;}
 #top .top-content .top-Brand {padding: 60px 0 0;}
-#top .top-content .row .col-6:nth-child(1) h1 {font-family: unset;font-size: 157px;line-height: 1;color: #fff100;margin: 0;font-weight: 800;position: relative;z-index: 3;}
+#top .top-content .row .col-6:nth-child(1) h1 {font-family: unset;font-size: 157px;line-height: 1;color: #fff100;margin: 0;font-weight: 800;}
 #top .top-content .row .col-6:nth-child(1) p {font-family: MADE;font-size: 99px;margin: 0 22px;}
 #top .top-content .row .col-6:nth-child(2) {display: flex;flex-wrap: wrap;align-items: flex-end;}
 #top .top-content .row .col-6:nth-child(2) .top-Instructions {padding: 40px 0 0;}
-#top .top-background {position: absolute;top: 0;right: 0;width: calc(42% + 100px);height: 100%;overflow: hidden;}
-.top-Visualize {position: relative;z-index: 2;left: 0;}
+#top .top-background {position: absolute;top: 0;right: 0;width: calc(42% + 100px);height: 100%;overflow: hidden;z-index: -5;}
+.top-Visualize {position: relative;z-index: -4;left: 0;}
 .top-Visualize img {max-width: 100%;}
 .top-background ul {padding: 0;background-color: white;}
 .top-background ul li {list-style: none;}
@@ -129,7 +129,7 @@
     #top .top-content .row .col-6 {flex: 0 0 100%;max-width: 100%;}
     .top-Visualize {position: initial;bottom: -224px;}
     .top-Instructions {height: 100%;}
-    .top-Visualize img {max-width: 78vw;position: relative;z-index: 4;}
+    .top-Visualize img {max-width: 78vw;position: relative;}
     #top .top-background {position: absolute;right: 0;width: calc(62% + 100px);height: calc(40% + 100px);top: calc(40% + 100px);}
     #top .top-content .row .col-6:nth-child(1) {padding: 40px 40px 0}
     #top .top-content .row .col-6:nth-child(1) h1 {font-size: 16vw;line-height: 0.8;}
@@ -219,7 +219,7 @@
 
 
 /* service */
-#service {position: relative;margin: 0 auto;z-index: 4444;}
+#service {position: relative;margin: 0 auto;}
 #service .service-content {max-width: 1200px;margin: 0 auto;}
 #service .service-content .row {padding: 260px 0 0;}
 #service .service-content .row .col-8  {padding-left: 0;padding-right: 0;-webkit-animation-name: "right"; /*动画名称，需要跟@keyframes定义的名称一致*/ -webkit-animation-duration: 4s;/*动画持续的时间长*/ -webkit-animation-iteration-count: 1;/*动画循环播放的次数为1 infinite为无限次*/}
@@ -240,8 +240,8 @@ input:checked ~ div > * {opacity: 1;transition: 0.5s;transition-delay: 0.25s;mar
 input:checked + label:before {transform: rotate(360deg);transition: 0.5s;}
 input:checked + label:after {transform: rotate(450deg);transition: 0.5s;}
 label:hover {cursor: pointer;}
-.service-background {position: absolute;top: calc(38% + 100px);left: 0;width: calc(74% + 100px);height: calc(22% + 100px);overflow: hidden;}
-.service-background ul {padding: 0;background-color: white;}
+.service-background {position: absolute;top: calc(38% + 100px);left: 0;width: calc(74% + 100px);height: calc(22% + 100px);overflow: hidden;z-index: -444;}
+.service-background ul {padding: 0;}
 .service-background ul li {list-style: none;}
 .service-background ul li svg {animation:drift 16s linear infinite;}
 /* service end */
@@ -295,10 +295,10 @@ label:hover {cursor: pointer;}
 
 @media (max-width: 480px) {
   #works .works-content .row {padding: 60px 0 0;}
-  #works .works-content .row .col-6 .works-title {position: relative;z-index: 6;}
+  #works .works-content .row .col-6 .works-title {position: relative;}
   #works .works-content .row .col-6 .works-title h4 {position: initial;padding: 0 0 30px;font-size: 50px;}
   #works .works-content .row .works-title::after {left: calc(45% + 20px);top: 52px;}
-  #works .works-content .row .col-6 .More {top: 8px;z-index: 8;}
+  #works .works-content .row .col-6 .More {top: 8px;}
 }
 
 

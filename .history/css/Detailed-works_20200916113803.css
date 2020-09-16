@@ -85,7 +85,7 @@
     #top .top-content .row .col-6 {flex: 0 0 100%;max-width: 100%;}
     .top-Visualize {position: initial;bottom: -224px;}
     .top-Instructions {height: 100%;}
-    .top-Visualize img {max-width: 78vw;position: relative;z-index: 4;}
+    .top-Visualize img {max-width: 78vw;position: relative;}
     #top .top-background {position: absolute;right: 0;width: calc(62% + 100px);height: calc(40% + 100px);top: calc(40% + 100px);}
     #top .top-content .row .col-6:nth-child(1) {padding: 40px;}
     #top .top-content .row .col-6:nth-child(1) h1 {font-size: 16vw;line-height: 0.8;}
