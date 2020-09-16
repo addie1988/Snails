@@ -124,12 +124,16 @@
 .mail {position: relative;}
 .mail-content {position: fixed;height: 100%;background-color: white;z-index: 99999999;top: 25vh;padding: 10px 1%;opacity: 0.6;}
 .mail-icon img {width: 100%;}
-.mail-detailed {writing-mode: vertical-lr;}
+.mail-detailed {writing-mode: vertical-lr}
 .main-Linear  {display: flex;justify-content: center;padding: 10px 0;}
 .main-Linear span {width: 1px;height: 60px;background-color: black;}
 .mail-detailed a {color: black;font-size: 16px;}
 .mail-detailed a:hover {color: #fff100;text-decoration: none;}
 /* main end */
+
+/* 投資組合 */
+
+/* 投資組合 end */
 
 
 /* works */
@@ -167,7 +171,6 @@
   #works .works-content .row .col-6 .works-title h4 {position: initial;padding: 0 0 30px;font-size: 50px;}
   #works .works-content .row .works-title::after {left: calc(45% + 20px);top: 47px;}
   #works .works-content .row .col-6 .More {top: 8px;z-index: 8;}
-}  
 
 
 /* footer */
