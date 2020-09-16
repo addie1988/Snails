@@ -9,7 +9,7 @@
 .loader-content {width: 160px;height: 160px;position: relative;}
 .loader-one section {position: absolute;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;}
 .loader-one section img {max-width: 60%;max-height: 60%;}
-.loader-one section:nth-child(2) {-webkit-animation: loading 2s infinite linear;-moz-animation: loading 2s infinite linear; -o-animation: loading 2s infinite linear;animation: loading 2s infinite linear;border: 6px solid white;border-radius: 999rem;border-color: #fff100 #fff100 #fff100 white;border-bottom: thin;}
+.loader-one section:nth-child(2) {-webkit-animation: loading 2s infinite linear;-moz-animation: loading 2s infinite linear; -o-animation: loading 2s infinite linear;animation: loading 2s infinite linear;border: 4px solid white;border-radius: 999rem;border-color: #fff100 #fff100 #fff100 white;border-bottom: thin;}
 /* loading end */
 
 /* 文字動畫 */
@@ -110,7 +110,7 @@
 .top-background ul li {list-style: none;}
 .top-background ul li svg {animation:drift 16s linear infinite;}
 .top-Brand-background {position: fixed;width: 124vw;z-index: -444;top: 104vh;}
-.top-Brand-svg {position: absolute;opacity: 0.9;bottom: 0;z-index: -999999;width: 147vw;right: 0;}
+.top-Brand-svg {position: absolute;opacity: 0.5;bottom: 0;z-index: -999999;width: 147vw;right: 0;}
 
 @keyframes drift {
     from {transform: translatey(-700px);}

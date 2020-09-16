@@ -66,7 +66,7 @@
 .top-background ul li {list-style: none;}
 .top-background svg {animation:drift 16s linear infinite;background-color: white;}
 .top-Brand-background {position: fixed;width: 124vw;z-index: -444;top: 104vh;}
-.top-Brand-svg {position: absolute;opacity: 0.9;bottom: 0;width: 147vw;right: 0;}
+.top-Brand-svg {position: absolute;opacity: 0.5;bottom: 0;width: 147vw;right: 0;}
 
 @keyframes drift {
     from {transform: translatey(-700px);}
@@ -189,7 +189,7 @@
 @media (max-width: 480px) {
   #other .other-content .row {padding: 60px 0 0;}
   #other .other-content .row .col-6 .other-title h4 {position: initial;padding: 0 0 30px;}
-  #other .other-content .row .col-6 .More {top: -19px;}
+  #other .other-content .row .col-6 .More {top: 8px;}
 }
 
 /* footer */
