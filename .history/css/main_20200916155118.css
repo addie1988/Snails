@@ -303,7 +303,7 @@ label:hover {cursor: pointer;}
 
 
 /* footer */
-.footer {position: relative;margin: 0 auto;background-color: #f9f9f9;margin: 60px 0 0;z-index: 4444;}
+.footer {position: relative;margin: 0 auto;background-color: #f9f9f9;margin: 60px 0 0;z-index: 6;}
 .footer-content {max-width: 1200px;margin: 0 auto;}
 .footer-content .row {text-align: center;padding: 1%;}
 .footer-content .row .col {font-size: 13px;}
