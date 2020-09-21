@@ -5,9 +5,7 @@
 }
 
 /* body */
-body {
-  cursor: url("../images/mouse.png"), auto;
-}
+body {cursor: url(../images/mouse.png), pointer;}
 /* body end */
 
 

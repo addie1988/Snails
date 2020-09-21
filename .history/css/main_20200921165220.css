@@ -5,8 +5,8 @@
 }
 
 /* body */
-body {
-  cursor: url("../images/mouse.png"), auto;
+.custom {
+  cursor: url(images/my-cursor.png), auto;
 }
 /* body end */
 
