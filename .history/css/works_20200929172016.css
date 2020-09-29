@@ -96,7 +96,7 @@ body {
 .header-background ul li {list-style: none;}
 .header-background ul li svg {animation:drift 16s linear infinite;}
 .header-Brand-background {position: fixed;width: 124vw;z-index: -444;top: 104vh;}
-.header-Brand-svg {position: absolute;opacity: 0.3;bottom: 0;width: 147vw;right: 0;}
+.header-Brand-svg {position: absolute;opacity: 0.9;bottom: 0;width: 147vw;right: 0;}
 
 @keyframes drift {
     from {transform: translatey(-700px);}
