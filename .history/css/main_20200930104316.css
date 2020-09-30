@@ -165,7 +165,7 @@ body {
 
 /* about */
 #about {position: relative;margin: 0 auto;}
-.about-content {max-width: 1200px;}
+.about-content {position: relative;}
 .about-content-title {position: relative;width: 100%;}
 .about-content-title p {position: absolute;right: 0;color: #f9f9f9;font-size: 200px;font-family: unset;font-weight: 900;top: -82px; animation-duration: 3s;animation-name: slidein;animation-iteration-count: infinite;}
 #about .about-content .row {padding: 260px 0 0;margin-left: 0;margin-right: 0;}
