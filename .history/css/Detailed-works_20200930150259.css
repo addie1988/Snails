@@ -159,7 +159,7 @@ body {
 /* other */
 #other {position: relative;margin: 0 auto;z-index: 55;}
 #other .other-content {max-width: 1200px;margin: 0 auto;}
-#other .other-content .row {padding: 9rem 0 4rem;margin-left: 0;margin-right: 0;}
+#other .other-content .row {    padding: 9rem 0 4rem;margin-left: 0;margin-right: 0;}
 #other .other-content .row .col-6 {padding-right: 0;padding-left: 0;flex: 0 0 100%;max-width: 100%;}
 #other .other-content .row .col-6 .other-title h4 {position: absolute; left: 74px;font-size: 18px;margin: 0;color: black;top: -40px;}
 #other .other-content .row .col-6 .other-title {text-align: center;}
