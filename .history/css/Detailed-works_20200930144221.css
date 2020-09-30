@@ -118,7 +118,7 @@ body {
 /* main end */
 
 /* service-background */
-.service-background {position: absolute;left: 0;width: calc(62.7% + 100px);height: calc(70% + 100px);overflow: hidden;z-index: -444;bottom: 0;}
+.service-background {position: absolute;left: 0;width: calc(62.7% + 100px);height: calc(60% + 100px);overflow: hidden;z-index: -444;bottom: 0;}
 .service-background ul {padding: 0;}
 .service-background ul li {list-style: none;}
 .service-background svg {animation:drift 16s linear infinite;background-color: white;}
@@ -159,7 +159,7 @@ body {
 /* other */
 #other {position: relative;margin: 0 auto;z-index: 55;}
 #other .other-content {max-width: 1200px;margin: 0 auto;}
-#other .other-content .row {padding: 6rem 0;margin-left: 0;margin-right: 0;}
+#other .other-content .row {padding: 200px 0 0;margin-left: 0;margin-right: 0;}
 #other .other-content .row .col-6 {padding-right: 0;padding-left: 0;flex: 0 0 100%;max-width: 100%;}
 #other .other-content .row .col-6 .other-title h4 {position: absolute; left: 74px;font-size: 18px;margin: 0;color: black;top: -40px;}
 #other .other-content .row .col-6 .other-title {text-align: center;}

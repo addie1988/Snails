@@ -118,7 +118,7 @@ body {
 /* main end */
 
 /* service-background */
-.service-background {position: absolute;left: 0;width: calc(62.7% + 100px);height: calc(70% + 100px);overflow: hidden;z-index: -444;bottom: 0;}
+.service-background {position: absolute;left: 0;width: calc(62.7% + 100px);height: calc(60% + 100px);overflow: hidden;z-index: -444;bottom: 0;}
 .service-background ul {padding: 0;}
 .service-background ul li {list-style: none;}
 .service-background svg {animation:drift 16s linear infinite;background-color: white;}
