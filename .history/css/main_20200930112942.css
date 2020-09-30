@@ -267,6 +267,7 @@ label:hover {cursor: pointer;}
   #service .service-content .row .col-4 .service-title {position: initial;text-align: center;}
   #service .service-content .row .col-4 .service-title h4 {writing-mode: initial;position: initial;font-size: 50px;}
   #service .service-content .row .col-4 .service-title::after {width: 2px;height: calc(50% + 100px);top: 77px;left: 68px}
+  .service-background {height: calc(20% + 100px);}
 }
 
 
