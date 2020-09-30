@@ -137,7 +137,7 @@ body {
     .top-Visualize {position: initial;bottom: -224px;}
     .top-Instructions {height: 100%;}
     .top-Visualize img {max-width: 78vw;position: relative;z-index: 4;}
-    #top .top-background {position: absolute;right: 0;width: calc(62% + 100px);height: calc(40% + 100px);top: calc(34% + 100px);}
+    #top .top-background {position: absolute;right: 0;width: calc(62% + 100px);height: calc(40% + 100px);top: calc(3ˋ% + 100px);}
     #top .top-content .row .col-6:nth-child(1) {padding: 40px 40px 0}
     #top .top-content .row .col-6:nth-child(1) h1 {font-size: 16vw;line-height: 0.8;}
     #top .top-content .row .col-6:nth-child(1) p {font-size: 14vw;}
