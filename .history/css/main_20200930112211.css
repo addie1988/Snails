@@ -153,7 +153,7 @@ body {
 .main {position: relative;margin: 0 auto;}
 .main-content {margin: 0 auto;}
 .mail {position: relative;}
-.mail-content {position: fixed;height: 100%;background-color: white;z-index: 999999;top: 25vh;padding: 10px 1%;opacity: 0.6;}
+.mail-content {position: fixed;height: 100%;background-color: white;z-index: 222;top: 25vh;padding: 10px 1%;opacity: 0.6;}
 .mail-icon img {width: 100%;}
 .mail-detailed {writing-mode: vertical-lr}
 .main-Linear  {display: flex;justify-content: center;padding: 10px 0;}
@@ -227,8 +227,8 @@ body {
 
 /* service */
 #service {position: relative;margin: 0 auto;z-index: 4444;}
-#service .service-content {max-width: 1200px;margin: 10rem auto;}
-#service .service-content .row {padding: 6rem;}
+#service .service-content {max-width: 1200px;margin: 0 auto;}
+#service .service-content .row {padding: 3rem;}
 #service .service-content .row .col-8  {padding-left: 0;padding-right: 0;-webkit-animation-name: "right"; /*动画名称，需要跟@keyframes定义的名称一致*/ -webkit-animation-duration: 4s;/*动画持续的时间长*/ -webkit-animation-iteration-count: 1;/*动画循环播放的次数为1 infinite为无限次*/}
 #service .service-content .row .col-8 .service-Collapse {width: 60%;float: right;}
 #service .service-content .row .col-4  {padding-left: 0;padding-right: 0;-webkit-animation-name: "left"; /*动画名称，需要跟@keyframes定义的名称一致*/ -webkit-animation-duration: 4s;/*动画持续的时间长*/ -webkit-animation-iteration-count: 1;/*动画循环播放的次数为1 infinite为无限次*/}
@@ -247,7 +247,7 @@ input:checked ~ div > * {opacity: 1;transition: 0.5s;transition-delay: 0.25s;mar
 input:checked + label:before {transform: rotate(360deg);transition: 0.5s;}
 input:checked + label:after {transform: rotate(450deg);transition: 0.5s;}
 label:hover {cursor: pointer;}
-.service-background {position: absolute;top: 0;left: 0;width: calc(62% + 100px);height: calc(22% + 100px);overflow: hidden;z-index: -4;}
+.service-background {position: absolute;top: calc(38% + 100px);left: 0;width: calc(68% + 100px);height: calc(22% + 100px);overflow: hidden;z-index: -4;}
 .service-background ul {padding: 0;background-color: white;}
 .service-background ul li {list-style: none;}
 .service-background ul li svg {animation:drift 16s linear infinite;}
