@@ -257,7 +257,6 @@ label:hover {cursor: pointer;}
   #service .service-content .row {padding: 20% 0 0;}
   #service .service-content .row .col-8 {display: flex;justify-content: flex-end;}
   #service .service-content .row .col-8 .service-Collapse {margin: 0;}
-  .service-background {top: calc(30% + 100px);}
 }
 
 @media (max-width: 480px) {
@@ -299,7 +298,7 @@ label:hover {cursor: pointer;}
   #works .works-content .row {padding: 200px 0 0;}
   #works .works-content .row .works-title::after {left: calc(19% + 20px);top: -29px;width: 100px;}
   #works .works-content .row .col-6 .More {top: -82px;}
-  #works .works-content .row .col-6 .works-title h4 {left: 45px;z-index: 4;}
+  #works .works-content .row .col-6 .works-title h4 {left: 45px;}
 }
 
 @media (max-width: 480px) {

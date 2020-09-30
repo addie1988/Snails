@@ -247,7 +247,7 @@ input:checked ~ div > * {opacity: 1;transition: 0.5s;transition-delay: 0.25s;mar
 input:checked + label:before {transform: rotate(360deg);transition: 0.5s;}
 input:checked + label:after {transform: rotate(450deg);transition: 0.5s;}
 label:hover {cursor: pointer;}
-.service-background {position: absolute;top: calc(38% + 100px);left: 0;width: calc(74% + 100px);height: calc(22% + 100px);overflow: hidden;}
+.service-background {position: absolute;top: calc(30% + 100px);left: 0;width: calc(74% + 100px);height: calc(22% + 100px);overflow: hidden;}
 .service-background ul {padding: 0;background-color: white;}
 .service-background ul li {list-style: none;}
 .service-background ul li svg {animation:drift 16s linear infinite;}
@@ -257,7 +257,6 @@ label:hover {cursor: pointer;}
   #service .service-content .row {padding: 20% 0 0;}
   #service .service-content .row .col-8 {display: flex;justify-content: flex-end;}
   #service .service-content .row .col-8 .service-Collapse {margin: 0;}
-  .service-background {top: calc(30% + 100px);}
 }
 
 @media (max-width: 480px) {
