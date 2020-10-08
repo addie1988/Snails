@@ -228,7 +228,7 @@ body {
 
 /* service */
 #service {position: relative;margin: 0 auto;z-index: 4444;}
-#service .service-content {max-width: 1200px;margin: 0 auto;}
+#service .service-content {max-width: 1200px;margin: 10rem auto;}
 #service .service-content .row {padding: 6rem 0;}
 #service .service-content .row .col-8  {padding-left: 0;padding-right: 0;-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
 #service .service-content .row .col-8 .service-Collapse {width: 60%;float: right;}

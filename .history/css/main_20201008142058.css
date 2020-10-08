@@ -168,7 +168,7 @@ body {
 .about-content {max-width: 1200px;margin: 0 auto;}
 .about-content-title {position: relative;width: 100%;}
 .about-content-title p {position: absolute;right: 0;color: #f9f9f9;font-size: 200px;font-family: unset;font-weight: 900;top: -82px; animation-duration: 3s;animation-name: slidein;animation-iteration-count: infinite;}
-#about .about-content .row {padding: 260px 0 14rem;margin-left: 0;margin-right: 0;}
+#about .about-content .row {padding: 260px 0 0;margin-left: 0;margin-right: 0;}
 #about .about-content .row .col-6:nth-child(1) p {padding: 0 140px;font-size: 16px;line-height: 2;}
 #about .about-content .row .col-6:nth-child(1) {-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
 #about .about-content .row .col-6:nth-child(2) {-webkit-animation-name: "right";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
@@ -228,7 +228,7 @@ body {
 
 /* service */
 #service {position: relative;margin: 0 auto;z-index: 4444;}
-#service .service-content {max-width: 1200px;margin: 0 auto;}
+#service .service-content {max-width: 1200px;margin: 10rem auto;}
 #service .service-content .row {padding: 6rem 0;}
 #service .service-content .row .col-8  {padding-left: 0;padding-right: 0;-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
 #service .service-content .row .col-8 .service-Collapse {width: 60%;float: right;}
