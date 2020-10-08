@@ -248,7 +248,7 @@ input:checked ~ div > * {opacity: 1;transition: 0.5s;transition-delay: 0.25s;mar
 input:checked + label:before {transform: rotate(360deg);transition: 0.5s;}
 input:checked + label:after {transform: rotate(450deg);transition: 0.5s;}
 label:hover {cursor: pointer;}
-.service-background {position: absolute;top: 0;left: 0;width: calc(66% + 10px);height: calc(100% + 10px);overflow: hidden;z-index: -4;}
+.service-background {position: absolute;top: 0;left: 0;width: calc(66% + 100px);height: calc(100% + 100px);overflow: hidden;z-index: -4;}
 .service-background ul {padding: 0;background-color: white;}
 .service-background ul li {list-style: none;}
 .service-background ul li svg {animation:drift 16s linear infinite;}
