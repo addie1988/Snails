@@ -43,10 +43,10 @@ body {
 
 /* 選單 */
 .menu {position: relative;width: 100%;display: flex;justify-content: flex-end;z-index: 8888;}
-.menu-content {margin: 0 auto;width: 30px;position: fixed;top: 110px;background-color: #fff100;padding: 30px 20px;opacity: 0.3;}
+.menu-content {margin: 0 auto;width: 30px;position: fixed;top: 110px;background-color: #fff100;padding: 30px 20px;opacity: 0.3;-webkit-animation-name: "right"; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;}
 .menu-content:hover {opacity: 1.0;}
 .menu-project a {text-decoration: none;transition: all 150ms linear 0s;}
-.Menu-project a:hover {text-decoration: none;color: white;}
+.menu-project a:hover {text-decoration: none;color: white;}
 .label {writing-mode: vertical-rl;text-orientation: sideways;margin: 20px 0;color: black;}
 .label::before {content: "";width: 2px;height: 0px;background-color: white;display: flex;transition: height 2s;position: absolute;right: 30px;}
 .label:hover:before {height: 60px;}
@@ -107,7 +107,7 @@ body {
 /* main */
 .main {position: relative;margin: 0 auto;}
 .main-content {margin: 0 auto;}
-.mail {position: relative;}
+.mail {position: relative;-webkit-animation-name: "left"; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;}
 .mail-content {position: fixed;height: 100%;background-color: white;z-index: 222;top: 25vh;padding: 10px 1%;opacity: 0.6;}
 .mail-icon img {width: 100%;}
 .mail-detailed {writing-mode: vertical-lr}
@@ -200,7 +200,7 @@ body {
 }
 
 /* footer */
-.footer {position: relative;margin: 0 auto;background-color: #f9f9f9;z-index: 66666;}
+.footer {position: relative;margin: 0 auto;background-color: #f9f9f9;z-index: 4444;}
 .footer-content {max-width: 1200px;margin: 0 auto;}
 .footer-content .row {text-align: center;padding: 1%;}
 .footer-content .row .col {font-size: 13px;}

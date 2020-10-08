@@ -16,7 +16,7 @@ body {
 .loader-content {width: 160px;height: 160px;position: relative;}
 .loader-one section {position: absolute;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;}
 .loader-one section img {max-width: 60%;max-height: 60%;}
-.loader-one section:nth-child(2) {-webkit-animation: loading 2s infinite linear;-moz-animation: loading 2s infinite linear; -o-animation: loading 2s infinite linear;animation: loading 2s infinite linear;border: 6px solid white;border-radius: 999rem;border-color: #fff100 white white white;border-style: dashed;}
+.loader-one section:nth-child(2) {-webkit-animation: loading 2s infinite linear;-moz-animation: loading 2s infinite linear; -o-animation: loading 2s infinite linear;animation: loading 2s infinite linear;border: 6px solid white;border-radius: 999rem;border-color: #fff100 #fff100 #fff100 white;border-style: dotted;}
 /* loading end */
 
 /* 文字動畫 */
