@@ -86,7 +86,7 @@ body {
 }
 
 /* 選單 */
-.Menu {position: relative;width: 100%;display: flex;justify-content: flex-end;z-index: 8888;-webkit-animation-name: "right"; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;}
+.Menu {position: relative;width: 100%;display: flex;justify-content: flex-end;z-index: 8888;}
 .Menu-content {margin: 0 auto;width: 30px;position: fixed;top: 110px;background-color: #fff100;padding: 30px 20px;opacity: 0.3;}
 .Menu-content:hover {opacity: 1.0;}
 .Menu-project a {text-decoration: none;transition: all 150ms linear 0s;}
@@ -152,7 +152,7 @@ body {
 /* main */
 .main {position: relative;margin: 0 auto;}
 .main-content {margin: 0 auto;}
-.mail {position: relative;-webkit-animation-name: "left"; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;}
+.mail {position: relative;}
 .mail-content {position: fixed;height: 100%;background-color: white;z-index: 33333;top: 25vh;padding: 10px 1%;opacity: 0.6;}
 .mail-icon img {width: 100%;}
 .mail-detailed {writing-mode: vertical-lr}
@@ -171,7 +171,6 @@ body {
 #about .about-content .row {padding: 260px 0 0;margin-left: 0;margin-right: 0;}
 #about .about-content .row .col-6:nth-child(1) p {padding: 0 140px;font-size: 16px;line-height: 2;}
 #about .about-content .row .col-6:nth-child(1) {-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
-#about .about-content .row .col-6:nth-child(2) {-webkit-animation-name: "right";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
 .about-title {position: relative;}
 #about .row .col-6 .about-title h4 {writing-mode: vertical-lr;position: absolute; left: 30px;font-size: 69px;margin: 0;color: #fff100;top: -94px;}
 #about .row .col-6 .about-title::after {content: "";width: 2px;height: 200px;background-color: #fff100;position: absolute;left: 43px;top: -45px;}
@@ -230,9 +229,9 @@ body {
 #service {position: relative;margin: 0 auto;z-index: 4444;}
 #service .service-content {max-width: 1200px;margin: 10rem auto;}
 #service .service-content .row {padding: 6rem 0;}
-#service .service-content .row .col-8  {padding-left: 0;padding-right: 0;-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
+#service .service-content .row .col-8  {padding-left: 0;padding-right: 0;-webkit-animation-name: "right"; /*动画名称，需要跟@keyframes定义的名称一致*/ -webkit-animation-duration: 4s;/*动画持续的时间长*/ -webkit-animation-iteration-count: 1;/*动画循环播放的次数为1 infinite为无限次*/}
 #service .service-content .row .col-8 .service-Collapse {width: 60%;float: right;}
-#service .service-content .row .col-4  {padding-left: 0;padding-right: 0;-webkit-animation-name: "right"; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;}
+#service .service-content .row .col-4  {padding-left: 0;padding-right: 0;-webkit-animation-name: "left"; /*动画名称，需要跟@keyframes定义的名称一致*/ -webkit-animation-duration: 4s;/*动画持续的时间长*/ -webkit-animation-iteration-count: 1;/*动画循环播放的次数为1 infinite为无限次*/}
 #service .service-content .row .col-4 .service-title {position: relative;}
 #service .service-content .row .col-4 .service-title h4 {writing-mode: vertical-lr;position: absolute; right: -2px;font-size: 69px;margin: 0;color: #fff100;top: -94px;}
 #service .service-content .row .col-4 .service-title::after {content: "";width: 2px;height: calc(100% + 230px);background-color: #fff100;position: absolute;right: 64px;top: -50px;}

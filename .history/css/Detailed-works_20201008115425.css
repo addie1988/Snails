@@ -107,7 +107,7 @@ body {
 /* main */
 .main {position: relative;margin: 0 auto;}
 .main-content {margin: 0 auto;}
-.mail {position: relative;-webkit-animation-name: "left"; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;}
+.mail {position: relative;}
 .mail-content {position: fixed;height: 100%;background-color: white;z-index: 222;top: 25vh;padding: 10px 1%;opacity: 0.6;}
 .mail-icon img {width: 100%;}
 .mail-detailed {writing-mode: vertical-lr}

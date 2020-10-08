@@ -86,7 +86,7 @@ body {
 }
 
 /* 選單 */
-.Menu {position: relative;width: 100%;display: flex;justify-content: flex-end;z-index: 8888;-webkit-animation-name: "right"; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;}
+.Menu {position: relative;width: 100%;display: flex;justify-content: flex-end;z-index: 8888;}
 .Menu-content {margin: 0 auto;width: 30px;position: fixed;top: 110px;background-color: #fff100;padding: 30px 20px;opacity: 0.3;}
 .Menu-content:hover {opacity: 1.0;}
 .Menu-project a {text-decoration: none;transition: all 150ms linear 0s;}
