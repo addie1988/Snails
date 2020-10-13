@@ -185,7 +185,11 @@ body {
 
 @media (max-width: 768px) {
 #about .about-content .row .col-6:nth-child(1) p {padding: 0 0 0 100px;}
-.about-content-title p {font-size: 25vw;-webkit-animation: mymove 5s infinite;animation: mymove 5s infinite;top: -46px;}
+.about-content-title p {font-size: 25vw;top: -46px;animation: slidein 40s infinite;}
+@keyframes slidein {
+  0%{transform: translate(0px);}
+  100%{transform: translate(-500px);}
+}
 #about .about-content .row .col-6:nth-child(2) .Painting .about-img {display: flex;justify-content: flex-end;}
 #about .about-content .row .col-6:nth-child(2) .Painting .attentive {top: -24px;}
 }
