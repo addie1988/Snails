@@ -205,7 +205,7 @@ body {
   #about .about-content .row .col-6 {flex: 0 0 100%;max-width: 100%;}
   #about .row .col-6 .about-title {text-align: center;}
   #about .row .col-6 .about-title h4 {writing-mode: initial;position: initial;font-size: 50px;}
-  #about .row .col-6 .about-title::after {width: calc (7% + 100px);height: 2px;left: 160px;top: 48px;}
+  #about .row .col-6 .about-title::after {width: calc (7% + 100px);height: 2px;left: 0;top: 69px;}
   #about .about-content .row .col-6:nth-child(1) {padding: 40px;}
   #about .about-content .row .col-6:nth-child(2) .Painting .about-img {display: flex;justify-content: flex-end;}
   #about .about-content .row .col-6:nth-child(2) .Painting .about-img img {width: calc(80% + 56px);}
