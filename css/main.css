@@ -284,7 +284,7 @@ label:hover {cursor: pointer;}
 #works .works-content .row .col-6 .More  a:hover {text-decoration: none;color: black;}
 #works .works-content .row .col-6 .More p {margin: 0;position: absolute;}
 #works .works-content .row .col-6 .More span {-webkit-animation: loading 8s infinite linear;-moz-animation: loading 8s infinite linear; -o-animation: loading 8s infinite linear;animation: loading 8s infinite linear;}
-#works .works-content .row .col-6 ul {display: flex;padding: 0;overflow: hidden;}
+#works .works-content .row .col-6 ul {display: flex;padding: 0;overflow: hidden;margin: 0;}
 #works .works-content .row .col-6 ul li {width: 300px;height: 300px;list-style: none;}
 #works .works-content .row .col-6 ul li a img {animation: Animation 40s infinite;}
 @keyframes Animation {
@@ -310,7 +310,7 @@ label:hover {cursor: pointer;}
 
 
 /* footer */
-.footer {position: relative;margin: 0 auto;background-color: #f9f9f9;margin: 60px 0 0;z-index: 66666;}
+.footer {position: relative;margin: 0 auto;background-color: #f9f9f9;z-index: 66666;}
 .footer-content {max-width: 1200px;margin: 0 auto;}
 .footer-content .row {text-align: center;padding: 1%;}
 .footer-content .row .col {font-size: 13px;}
