@@ -258,14 +258,18 @@ label:hover {cursor: pointer;}
   #service .service-content .row .col-8 {display: flex;justify-content: flex-end;}
   #service .service-content .row .col-8 .service-Collapse {margin: 0;}
 }
+
 @media (max-width: 600px) {
+  #service .service-content .row .col-4 .service-title::after {width: calc(7% + 100px);height: 2px;top: 47px;left: 194px}
+}
+
+@media (max-width: 480px) {
   #service .service-content .row {padding: 6rem 0;flex-direction: column-reverse;}
   #service .service-content .row .col-8 .service-Collapse {margin: 0 auto;}
   #service .service-content .row .col-8 {flex: 0 0 100%;max-width: 100%;    padding: 0 0 20px;}
   #service .service-content .row .col-4 {flex: 0 0 100%;max-width: 100%;}
   #service .service-content .row .col-4 .service-title {position: initial;text-align: center;}
   #service .service-content .row .col-4 .service-title h4 {writing-mode: initial;position: initial;font-size: 50px;}
-  #service .service-content .row .col-4 .service-title::after {width: calc(7% + 100px);height: 2px;top: 47px;left: 194px}
   .service-background {width: calc(66% + 100px);height: calc(100% + 0px);}
 }
 
