@@ -24,8 +24,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- 滾動指示器 end -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!-- loading -->
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 
 <body>
@@ -83,17 +81,18 @@
     <!-- main -->
     <div class="main">
         <div class="main-content">
-            <!-- mail -->
-            <div class="mail">
-                <div class="mail-content">
-                    <div class="mail-icon"><img src="images/mail-icon.png"></div>
-                    <div class="main-Linear"><span></span></div>
-                    <div class="mail-detailed"><a href="mailto:John19871213@gmail.com">John19871213@gmail.com</a></div>
-                </div>
-            </div>
             <!-- about -->
             <div id="about">
                 <div class="about-content">
+                    <!-- mail -->
+                    <div class="mail">
+                        <div class="mail-content">
+                            <div class="mail-icon"><img src="images/mail-icon.png"></div>
+                            <div class="main-Linear"><span></span></div>
+                            <div class="mail-detailed"><a
+                                    href="mailto:John19871213@gmail.com">John19871213@gmail.com</a></div>
+                        </div>
+                    </div>
                     <div class="about-content-title">
                         <p>STUDIO</p>
                     </div>
@@ -159,6 +158,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="service-background"></div>
                 </div>
             </div>
             <!-- service end -->
@@ -209,7 +209,6 @@
             </div>
             <!-- works end -->
         </div>
-        <div class="service-background"></div>
     </div>
 
     <!-- footer -->
@@ -241,13 +240,14 @@
         window.onload = myload;
     </script>
 
-
+    <!-- svg -->
     <script>
         $(".top-Brand-svg").load("svg/top-Brand-svg.html #圖層_1");
         $(".attentive").load("svg/attentive.html #圖層_1");
         $(".top-background").load("svg/top-background.html #top-background");
         $(".service-background").load("svg/service-background.html #service-background");
     </script>
+
 </body>
 
 </html>
