@@ -168,7 +168,7 @@ body {
 .about-content {max-width: 1200px;margin: 0 auto;}
 .about-content-title {position: relative;width: 100%;}
 .about-content-title p {position: absolute;right: 0;color: #f8f9f8;font-size: 200px;font-family: unset;font-weight: 900;top: -82px;animation-duration: 3s;animation-name: slidein;animation-iteration-count: infinite;}
-#about .about-content .row {padding: 20rem 0 8rem;margin-left: 0;margin-right: 0;margin-bottom: 6rem;}
+#about .about-content .row {padding: 20rem 0 8rem;margin-left: 0;margin-right: 0;}
 #about .about-content .row::before {content: "";width: calc(51% + 100px);height: 300px;background-color: #f8f9f8;display: inline-block;position: absolute;right: 0;top: 140px;}
 #about .about-content .row .col-6:nth-child(1) p {padding: 0 0 0 140px;font-size: 16px;line-height: 2;}
 #about .about-content .row .col-6:nth-child(1) {-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
@@ -267,7 +267,7 @@ label:hover {cursor: pointer;}
   #service .service-content .row .col-8 .service-Collapse {margin: 0;}
 }
 @media (max-width: 600px) {
-  #service .service-content .row {padding: 7rem 0;flex-direction: column-reverse;}
+  #service .service-content .row {padding: 7rem 0 0;flex-direction: column-reverse;}
   #service .service-content .row .col-8 .service-Collapse {margin: 0 auto;}
   #service .service-content .row .col-8 {flex: 0 0 100%;max-width: 100%;    padding: 0 0 20px;}
   #service .service-content .row .col-4 {flex: 0 0 100%;max-width: 100%;}

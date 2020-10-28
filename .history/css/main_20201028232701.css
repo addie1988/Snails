@@ -168,7 +168,7 @@ body {
 .about-content {max-width: 1200px;margin: 0 auto;}
 .about-content-title {position: relative;width: 100%;}
 .about-content-title p {position: absolute;right: 0;color: #f8f9f8;font-size: 200px;font-family: unset;font-weight: 900;top: -82px;animation-duration: 3s;animation-name: slidein;animation-iteration-count: infinite;}
-#about .about-content .row {padding: 20rem 0 8rem;margin-left: 0;margin-right: 0;margin-bottom: 6rem;}
+#about .about-content .row {padding: 20rem 0 8rem;margin-left: 0;margin-right: 0;}
 #about .about-content .row::before {content: "";width: calc(51% + 100px);height: 300px;background-color: #f8f9f8;display: inline-block;position: absolute;right: 0;top: 140px;}
 #about .about-content .row .col-6:nth-child(1) p {padding: 0 0 0 140px;font-size: 16px;line-height: 2;}
 #about .about-content .row .col-6:nth-child(1) {-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
@@ -181,7 +181,7 @@ body {
 #about .about-content .row .col-6:nth-child(2) .Painting .attentive {width: 20%;position: absolute;top: -50px;left: 0;-webkit-animation: loading 8s infinite linear;-moz-animation: loading 8s infinite linear; -o-animation: loading 8s infinite linear;animation: loading 8s infinite linear;z-index: 999;}
 #about .about-content .row .col-6:nth-child(2) .Painting .attentive svg .cls-1{fill:#fff100;}
 #about .about-content .row .col-6:nth-child(2) .Painting .about-img {position: relative;display: flex;justify-content:flex-end;}
-#about .about-content .row .col-6:nth-child(2) .Painting .about-img img {width: 90%;height: 100%;display: inline-block;}
+#about .about-content .row .col-6:nth-child(2) .Painting .about-img img {width: 90%;}
 
 
 @media (max-width: 768px) {
@@ -239,7 +239,7 @@ body {
 #service {position: relative;margin: 0 auto;z-index: 4444;}
 #service .service-content {max-width: 1200px;margin: 0 auto;}
 #service .service-content .row {padding: 12rem 0;}
-#service .service-content .row::after {content: "";width: calc(29% + 100px);height: calc(10% + 100px);display: inline-block;background-color: #f8f9f8;position: absolute;right: 0;top: 154px;z-index: -1;}
+#service .service-content .row::after {content: "";width: calc(29% + 100px);height: calc(30% + 100px);display: inline-block;background-color: #f8f9f8;position: absolute;right: 0;top: 154px;z-index: -1;}
 #service .service-content .row .col-8  {padding-left: 0;padding-right: 0;-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
 #service .service-content .row .col-8 .service-Collapse {width: 60%;float: right;}
 #service .service-content .row .col-4  {padding-left: 0;padding-right: 0;-webkit-animation-name: "right"; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;}
@@ -275,7 +275,7 @@ label:hover {cursor: pointer;}
   #service .service-content .row .col-4 .service-title h4 {writing-mode: initial;position: initial;font-size: 50px;}
   #service .service-content .row .col-4 .service-title::after {width: calc(7% + 100px);height: 2px;top: 47px;left: calc(44% + 20px)}
   .service-background {width: calc(66% + 100px);height: calc(100% + 0px);}
-  #service .service-content .row::after {width: calc(48% + 100px);top: 130px;z-index: -1;}
+  #service .service-content .row::after {width: calc(48% + 100px);height: calc(50% + 100px);top: 130px;z-index: -1;}
 }
 
 
@@ -313,7 +313,6 @@ label:hover {cursor: pointer;}
   #works .works-content .row .col-6 .works-title {position: relative;z-index: 6;}
   #works .works-content .row .col-6 .works-title h4 {position: initial;padding: 0 0 30px;font-size: 50px;}
   #works .works-content .row .col-6 .More {top: 8px;z-index: 8;}
-  #works .works-content .row::after {width: calc(47% + 100px);height: calc(16% + 100px);}
 }
 
 
