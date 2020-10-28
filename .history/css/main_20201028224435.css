@@ -173,11 +173,11 @@ body {
 #about .about-content .row .col-6:nth-child(1) p {padding: 0 0 0 140px;font-size: 16px;line-height: 2;}
 #about .about-content .row .col-6:nth-child(1) {-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
 #about .about-content .row .col-6:nth-child(2) {-webkit-animation-name: "right";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
-#about .about-content .row .col-6:nth-child(2)::before {content: "Lin Snails Design. 獨創極簡風格設計、主要專注於極簡標誌設計、正確傳遞企業理念、帶動極簡市場風潮、平面設計服務。";position: absolute;top: 19%;max-width: 50%;left: -20%;line-height: 2;z-index: 2;}
+#about .about-content .row .col-6:nth-child(2)::before {content: "Lin Snails Design. 獨創極簡風格設計、主要專注於極簡標誌設計、正確傳遞企業理念、帶動極簡市場風潮、平面設計服務。";position: absolute;top: 20%;max-width: 50%;left: -10%;line-height: 2;z-index: 2;}
 .about-title {position: relative;}
 #about .row .col-6 .about-title h4 {writing-mode: vertical-lr;position: absolute; left: 30px;font-size: 90px;margin: 0;color: black;top: -94px;}
 #about .about-content .row .col-6 {padding-left: 0;padding-right: 0;}
-#about .about-content .row .col-6:nth-child(2) .Painting {position: relative;margin-top: 50px;}
+#about .about-content .row .col-6:nth-child(2) .Painting {position: relative;}
 #about .about-content .row .col-6:nth-child(2) .Painting .attentive {width: 20%;position: absolute;top: -50px;left: 0;-webkit-animation: loading 8s infinite linear;-moz-animation: loading 8s infinite linear; -o-animation: loading 8s infinite linear;animation: loading 8s infinite linear;z-index: 999;}
 #about .about-content .row .col-6:nth-child(2) .Painting .attentive svg .cls-1{fill:#fff100;}
 #about .about-content .row .col-6:nth-child(2) .Painting .about-img {position: relative;display: flex;justify-content:flex-end;}
@@ -193,7 +193,6 @@ body {
 
 
 @media (max-width: 600px) {
-  #about .about-content .row .col-6:nth-child(2) {padding: 0 4rem;}
   #about .about-content .row .col-6:nth-child(2)::before {position: initial;}
   #about .about-content .row::before {width: calc(42% + 100px);height: calc(30% + 100px);top: 170px;}
 }
@@ -267,7 +266,7 @@ label:hover {cursor: pointer;}
   #service .service-content .row .col-8 .service-Collapse {margin: 0;}
 }
 @media (max-width: 600px) {
-  #service .service-content .row {padding: 7rem 0;flex-direction: column-reverse;}
+  #service .service-content .row {padding: 6rem 0;flex-direction: column-reverse;}
   #service .service-content .row .col-8 .service-Collapse {margin: 0 auto;}
   #service .service-content .row .col-8 {flex: 0 0 100%;max-width: 100%;    padding: 0 0 20px;}
   #service .service-content .row .col-4 {flex: 0 0 100%;max-width: 100%;}
@@ -275,7 +274,7 @@ label:hover {cursor: pointer;}
   #service .service-content .row .col-4 .service-title h4 {writing-mode: initial;position: initial;font-size: 50px;}
   #service .service-content .row .col-4 .service-title::after {width: calc(7% + 100px);height: 2px;top: 47px;left: calc(44% + 20px)}
   .service-background {width: calc(66% + 100px);height: calc(100% + 0px);}
-  #service .service-content .row::after {width: calc(48% + 100px);height: calc(50% + 100px);top: 130px;z-index: -1;}
+  #service .service-content .row::after {width: calc(48% + 100px);height: calc(50% + 100px);top: 130px;z-index: 1;}
 }
 
 
@@ -283,9 +282,8 @@ label:hover {cursor: pointer;}
 #works-content {position: relative;}
 #works .works-content {max-width: 1200px;margin: 0 auto;}
 #works .works-content .row {padding: 14rem 0 0;margin-left: 0;margin-right: 0;}
-#works .works-content .row::after {content: "";width: calc(30% + 100px);height: calc(17% + 100px);display: inline-block;background-color: #f8f9f8;position: absolute;left: 0;bottom: 0;z-index: -1;}
 #works .works-content .row .col-6 {padding-right: 0;padding-left: 0;flex: 0 0 100%;max-width: 100%;}
-#works .works-content .row .col-6 .works-title h4 {position: absolute; left: 57px;font-size: 90px;margin: 0;color: black;bottom: 66px;}
+#works .works-content .row .col-6 .works-title h4 {position: absolute; left: 74px;font-size: 90px;margin: 0;color: black;top: -94px;}
 #works .works-content .row .col-6 .works-title {text-align: center;}
 #works .works-content .row .col-6 .More {position: absolute;right: 0;top: -80px;z-index: 4;width: 99px;height: 99px;}
 #works .works-content .row .col-6 .More a span {color: #fff100;border: 2px solid #fff100;border-style: dashed;width: 99px;height: 99px;border-radius: 999rem;display: block;}
@@ -309,7 +307,7 @@ label:hover {cursor: pointer;}
 }
 
 @media (max-width: 600px) {
-  #works .works-content .row {padding: 7rem 0 0;}
+  #works .works-content .row {padding: 60px 0 0;}
   #works .works-content .row .col-6 .works-title {position: relative;z-index: 6;}
   #works .works-content .row .col-6 .works-title h4 {position: initial;padding: 0 0 30px;font-size: 50px;}
   #works .works-content .row .col-6 .More {top: 8px;z-index: 8;}

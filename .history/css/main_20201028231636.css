@@ -173,7 +173,7 @@ body {
 #about .about-content .row .col-6:nth-child(1) p {padding: 0 0 0 140px;font-size: 16px;line-height: 2;}
 #about .about-content .row .col-6:nth-child(1) {-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
 #about .about-content .row .col-6:nth-child(2) {-webkit-animation-name: "right";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
-#about .about-content .row .col-6:nth-child(2)::before {content: "Lin Snails Design. 獨創極簡風格設計、主要專注於極簡標誌設計、正確傳遞企業理念、帶動極簡市場風潮、平面設計服務。";position: absolute;top: 19%;max-width: 50%;left: -20%;line-height: 2;z-index: 2;}
+#about .about-content .row .col-6:nth-child(2)::before {content: "Lin Snails Design. 獨創極簡風格設計、主要專注於極簡標誌設計、正確傳遞企業理念、帶動極簡市場風潮、平面設計服務。";position: absolute;top: 20%;max-width: 50%;left: -10%;line-height: 2;z-index: 2;}
 .about-title {position: relative;}
 #about .row .col-6 .about-title h4 {writing-mode: vertical-lr;position: absolute; left: 30px;font-size: 90px;margin: 0;color: black;top: -94px;}
 #about .about-content .row .col-6 {padding-left: 0;padding-right: 0;}
