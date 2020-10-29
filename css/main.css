@@ -284,7 +284,7 @@ label:hover {cursor: pointer;}
 #works-content {position: relative;}
 #works .works-content {max-width: 1200px;margin: 0 auto;}
 #works .works-content .row {padding: 24rem 0 0;margin-left: 0;margin-right: 0;}
-#works .works-content .row::after {content: "";width: calc(60% + 50px);height: calc(54% + 50px);display: inline-block;background-color: #f8f9f8;position: absolute;left: 0;bottom: 0;z-index: -1;}
+#works .works-content .row::after {content: "";width: calc(37% + 50px);height: calc(54% + 50px);display: inline-block;background-color: #f8f9f8;position: absolute;left: 0;bottom: 0;z-index: -1;}
 #works .works-content .row .col-6 {padding-right: 0;padding-left: 0;flex: 0 0 100%;max-width: 100%;}
 #works .works-content .row .col-6 .works-title h4 {position: absolute; left: 57px;font-size: 90px;margin: 0;color: black;bottom: 66px;}
 #works .works-content .row .col-6 .works-title {text-align: center;}
