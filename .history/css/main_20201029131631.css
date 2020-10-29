@@ -303,7 +303,8 @@ label:hover {cursor: pointer;}
 /* works end */
 
 @media (max-width: 768px) {
-  #works .works-content .row .col-6 .More {top: -82px;}f
+  #works .works-content .row {padding: 200px 0 0;}
+  #works .works-content .row .col-6 .More {top: -82px;}
   #works .works-content .row .col-6 .works-title h4 {left: 45px;z-index: 4;}
 }
 
