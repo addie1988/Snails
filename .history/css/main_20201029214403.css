@@ -193,7 +193,7 @@ body {
 
 
 @media (max-width: 600px) {
-  #about .about-content .row .col-6:nth-child(2) {padding: 0 3rem;}
+  #about .about-content .row .col-6:nth-child(2) {padding: 0 4rem;}
   #about .about-content .row .col-6:nth-child(2)::before {position: initial;}
   #about .about-content .row::before {width: calc(42% + 100px);height: calc(30% + 100px);top: 170px;}
 }

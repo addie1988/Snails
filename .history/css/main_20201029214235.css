@@ -181,7 +181,7 @@ body {
 #about .about-content .row .col-6:nth-child(2) .Painting .attentive {width: 20%;position: absolute;top: -50px;left: 0;-webkit-animation: loading 8s infinite linear;-moz-animation: loading 8s infinite linear; -o-animation: loading 8s infinite linear;animation: loading 8s infinite linear;z-index: 999;}
 #about .about-content .row .col-6:nth-child(2) .Painting .attentive svg .cls-1{fill:#fff100;}
 #about .about-content .row .col-6:nth-child(2) .Painting .about-img {position: relative;display: flex;justify-content:flex-end;}
-#about .about-content .row .col-6:nth-child(2) .Painting .about-img img {width: 90%;height: 100%;display: inline-block;}
+#about .about-content .row .col-6:nth-child(2) .Painting .about-img img {width: 90%;height: 100%;display: inline-block;transform: translateX(0px) scale(1);}
 
 
 @media (max-width: 768px) {
@@ -193,7 +193,7 @@ body {
 
 
 @media (max-width: 600px) {
-  #about .about-content .row .col-6:nth-child(2) {padding: 0 3rem;}
+  #about .about-content .row .col-6:nth-child(2) {padding: 0 4rem;}
   #about .about-content .row .col-6:nth-child(2)::before {position: initial;}
   #about .about-content .row::before {width: calc(42% + 100px);height: calc(30% + 100px);top: 170px;}
 }
