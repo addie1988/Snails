@@ -280,7 +280,6 @@ label:hover {cursor: pointer;}
 
 
 /* works */
-#works {position: relative;margin: 0 auto;z-index: 4444;}
 #works-content {position: relative;}
 #works .works-content {max-width: 1200px;margin: 0 auto;}
 #works .works-content .row {padding: 24rem 0 0;margin-left: 0;margin-right: 0;}
