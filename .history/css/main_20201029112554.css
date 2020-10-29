@@ -169,11 +169,11 @@ body {
 .about-content-title {position: relative;width: 100%;}
 .about-content-title p {position: absolute;right: 0;color: #f8f9f8;font-size: 200px;font-family: unset;font-weight: 900;top: -82px;animation-duration: 3s;animation-name: slidein;animation-iteration-count: infinite;}
 #about .about-content .row {padding: 20rem 0 8rem;margin-left: 0;margin-right: 0;margin-bottom: 6rem;}
-#about .about-content .row::before {content: "";width: calc(60% + 100px);height: 400px;background-color: #f8f9f8;display: inline-block;position: absolute;right: 0;top: 140px;}
+#about .about-content .row::before {content: "";width: calc(53% + 100px);height: 400px;background-color: #f8f9f8;display: inline-block;position: absolute;right: 0;top: 140px;}
 #about .about-content .row .col-6:nth-child(1) p {padding: 0 0 0 140px;font-size: 16px;line-height: 2;}
 #about .about-content .row .col-6:nth-child(1) {-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
 #about .about-content .row .col-6:nth-child(2) {-webkit-animation-name: "right";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
-#about .about-content .row .col-6:nth-child(2)::before {content: "Lin Snails Design. 獨創極簡風格設計、主要專注於極簡標誌設計、正確傳遞企業理念、帶動極簡市場風潮、平面設計服務。";position: absolute;top: 42%;max-width: 60%;left: -29%;line-height: 2;z-index: 2;}
+#about .about-content .row .col-6:nth-child(2)::before {content: "Lin Snails Design. 獨創極簡風格設計、主要專注於極簡標誌設計、正確傳遞企業理念、帶動極簡市場風潮、平面設計服務。";position: absolute;top: 42%;max-width: 50%;left: -20%;line-height: 2;z-index: 2;}
 .about-title {position: relative;}
 #about .row .col-6 .about-title h4 {writing-mode: vertical-lr;position: absolute; left: 30px;font-size: 90px;margin: 0;color: black;top: -94px;}
 #about .about-content .row .col-6 {padding-left: 0;padding-right: 0;}
@@ -313,7 +313,7 @@ label:hover {cursor: pointer;}
   #works .works-content .row .col-6 .works-title {position: relative;z-index: 6;}
   #works .works-content .row .col-6 .works-title h4 {position: initial;padding: 0 0 30px;font-size: 50px;}
   #works .works-content .row .col-6 .More {top: 8px;z-index: 8;}
-  #works .works-content .row::after {width: calc(50% + 50px);height: calc(62% + 100px);}
+  #works .works-content .row::after {width: calc(47% + 100px);height: calc(51% + 100px);}
 }
 
 

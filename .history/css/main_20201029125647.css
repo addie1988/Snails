@@ -169,7 +169,7 @@ body {
 .about-content-title {position: relative;width: 100%;}
 .about-content-title p {position: absolute;right: 0;color: #f8f9f8;font-size: 200px;font-family: unset;font-weight: 900;top: -82px;animation-duration: 3s;animation-name: slidein;animation-iteration-count: infinite;}
 #about .about-content .row {padding: 20rem 0 8rem;margin-left: 0;margin-right: 0;margin-bottom: 6rem;}
-#about .about-content .row::before {content: "";width: calc(60% + 100px);height: 400px;background-color: #f8f9f8;display: inline-block;position: absolute;right: 0;top: 140px;}
+#about .about-content .row::before {content: "";width: calc(53% + 100px);height: 400px;background-color: #f8f9f8;display: inline-block;position: absolute;right: 0;top: 140px;}
 #about .about-content .row .col-6:nth-child(1) p {padding: 0 0 0 140px;font-size: 16px;line-height: 2;}
 #about .about-content .row .col-6:nth-child(1) {-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
 #about .about-content .row .col-6:nth-child(2) {-webkit-animation-name: "right";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
