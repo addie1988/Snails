@@ -239,12 +239,12 @@ body {
 #service {position: relative;margin: 0 auto;z-index: 4444;}
 #service .service-content {max-width: 1200px;margin: 0 auto;}
 #service .service-content .row {padding: 12rem 0;}
-#service .service-content .row::after {content: "";width: calc(24% + 100px);height: calc(10% + 100px);display: inline-block;background-color: #f8f9f8;position: absolute;right: 0;top: 154px;z-index: -1;}
+#service .service-content .row::after {content: "";width: calc(29% + 100px);height: calc(10% + 100px);display: inline-block;background-color: #f8f9f8;position: absolute;right: 0;top: 154px;z-index: -1;}
 #service .service-content .row .col-8  {padding-left: 0;padding-right: 0;-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
 #service .service-content .row .col-8 .service-Collapse {width: 60%;float: right;}
 #service .service-content .row .col-4  {padding-left: 0;padding-right: 0;-webkit-animation-name: "right"; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;}
 #service .service-content .row .col-4 .service-title {position: relative;}
-#service .service-content .row .col-4 .service-title h4 {position: absolute; right: 0px;font-size: 90px;margin: 0;color: black;top: -94px;}
+#service .service-content .row .col-4 .service-title h4 {display: grid;position: absolute; right: 0px;font-size: 90px;margin: 0;color: black;top: -94px;}
 input { display: none;}
 input ~ div {height: 1px;overflow: hidden;}
 input ~ div > * {opacity: 0;transition: 0.5s;font-size: 16px;line-height: 1.75em;}

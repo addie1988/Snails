@@ -244,7 +244,7 @@ body {
 #service .service-content .row .col-8 .service-Collapse {width: 60%;float: right;}
 #service .service-content .row .col-4  {padding-left: 0;padding-right: 0;-webkit-animation-name: "right"; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;}
 #service .service-content .row .col-4 .service-title {position: relative;}
-#service .service-content .row .col-4 .service-title h4 {position: absolute; right: 0px;font-size: 90px;margin: 0;color: black;top: -94px;}
+#service .service-content .row .col-4 .service-title h4 {display: grid;position: absolute; right: 0px;font-size: 90px;margin: 0;color: black;top: -94px;}
 input { display: none;}
 input ~ div {height: 1px;overflow: hidden;}
 input ~ div > * {opacity: 0;transition: 0.5s;font-size: 16px;line-height: 1.75em;}
