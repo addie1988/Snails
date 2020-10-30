@@ -212,8 +212,7 @@ body {
   #about .about-content .row::before {width: calc(42% + 100px);height: calc(30% + 100px);top: 170px;}
   #about .about-content .row .col-6:nth-child(1) {padding: 40px;}
   #about .about-content .row .col-6:nth-child(2) .Painting .about-img {display: flex;justify-content: flex-end;}
-  #about .about-content .row .col-6:nth-child(2) .Painting .about-img img {width: calc(80% + 56px);opacity: 1;}
-  #about .about-content .row .col-6:nth-child(2) .Painting .about-img img:hover {opacity: none;}
+  #about .about-content .row .col-6:nth-child(2) .Painting .about-img img {width: calc(80% + 56px);}
   #about .about-content .row {padding: 100px 0 0;}
   #about .about-content .row .col-6:nth-child(1) p {padding: 0}
   #about .about-content .row .col-6:nth-child(2) .Painting .attentive {top: -4vh;}
