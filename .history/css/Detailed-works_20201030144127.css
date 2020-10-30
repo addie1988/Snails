@@ -132,10 +132,27 @@ body {
 #works .works-content .row .col {padding-left: 0;padding-right: 0;}
 #works .works-content .row .col .Description {max-width: 860px;margin: 0 auto;}#works .works-content .row .col .Description .Description-Introduction
 #works .works-content .row .col .Description .Description-Introduction {padding: 13%;}
-#works .works-content .row .col .Description .Description-Introduction .Description-title {font-size: 22px;padding: 4rem 0;}
-#works .works-content .row .col .Description .Description-Introduction .Description-title::after {content:"";display: inline-block;position: relative;background-color: #fff100;width: 0;height: 2px;top: 10px;right: 22%;}
-#works .works-content .row .col .Description .Description-Introduction .Description-title:hover::after {opacity: 1;transition: width 3s;width: 240px;}
-#works .works-content .row .col .Description .Description-Introduction .Description-content {padding: 0 0 30px;font-size: 16px;line-height: 2;}
+#works .works-content .row .col .Description .Description-Introduction .Description-title {font-size: 22px;padding: 30px 0;transition: all 0.6s ease-in 0s;opacity: 1;}
+#works .works-content .row .col .Description .Description-Introduction .Description-title::before {position: absolute;
+  top: 50%;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: #350670;
+  border-radius: 50%;
+  display: inline-block;
+}
+#works .works-content .row .col .Description .Description-Introduction .Description-title:hover::before {animation: criss-cross-left 0.8s both;animation-direction: alternate;}
+#works .works-content .row .col .Description .Description-Introduction .Description-title::after {position: absolute;
+  top: 50%;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: #350670;
+  border-radius: 50%;}
+  display: inline-block;
+  #works .works-content .row .col .Description .Description-Introduction .Description-title:hover::after {animation: criss-cross-right 0.8s both;    animation-direction: alternate;}
+#works .works-content .row .col .Description .Description-Introduction .Description-content {padding: 0 0 30px;font-size: 16px;}
 #works .works-content .row .col .Description .Description-img ul {padding: 0;}
 #works .works-content .row .col .Description .Description-img ul li {list-style: none;margin: 10px 0 0;}
 #works .works-content .row .col .Description .Description-img ul li  img {max-width: 100%;max-height: 100%;}

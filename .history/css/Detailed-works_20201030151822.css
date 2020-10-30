@@ -72,8 +72,8 @@ body {
 .top-background ul {padding: 0;}
 .top-background ul li {list-style: none;}
 .top-background svg {animation:drift 16s linear infinite;background-color: white;}
-.top-Brand-background {position: fixed;width: 124vw;z-index: -444;top: 104vh;}
-.top-Brand-svg {position: absolute;opacity: 0.3;bottom: 0;width: 147vw;right: 0;}
+.top-Brand-background {position: fixed;width: 1vw;z-index: -444;top: 104vh;left: 54vw;}
+.top-Brand-svg {position: absolute;opacity: 0.5;bottom: 0;width: 147vw;right: 0;}
 
 @keyframes drift {
     from {transform: translatey(-700px);}
@@ -84,7 +84,7 @@ body {
     #top .top-content .row .col-6:nth-child(1) {padding: 0 40px 0;}
     #top .top-content .row .col-6:nth-child(1) h1 {font-size: 17vw;}
     #top .top-content .row .col-6:nth-child(1) p {font-size: 8vw;}
-    .top-Brand-background {top: 73vh;}
+    .top-Brand-background {top: 73vh;width: 160vw;}
     .top-Brand-svg {width: 184vw;right: 0;}
 }
 
@@ -133,9 +133,9 @@ body {
 #works .works-content .row .col .Description {max-width: 860px;margin: 0 auto;}#works .works-content .row .col .Description .Description-Introduction
 #works .works-content .row .col .Description .Description-Introduction {padding: 13%;}
 #works .works-content .row .col .Description .Description-Introduction .Description-title {font-size: 22px;padding: 30px 0;}
-#works .works-content .row .col .Description .Description-Introduction .Description-title:hover::before {content:"";width: 20px;height: 20px;display: block;position: absolute;margin: -9px -14px;border-top: 2px solid #fff100;border-left: 2px solid #fff100;}
-#works .works-content .row .col .Description .Description-Introduction .Description-title:hover::after {content:"";width: 20px;height: 20px;display: inline-block;position: absolute;margin: 17px -4px;border-bottom: 2px solid #fff100;border-right: 2px solid #fff100;}
-#works .works-content .row .col .Description .Description-Introduction .Description-content {padding: 0 0 30px;font-size: 16px;}
+#works .works-content .row .col .Description .Description-Introduction .Description-title::after {content:"";display: inline-block;position: relative;background-color: #fff100;width: 0;height: 2px;top: 10px;right: 22%;}
+#works .works-content .row .col .Description .Description-Introduction .Description-title:hover::after {opacity: 1;width: 40%;top: calc(100% - 3px);transition: top 4s;}
+#works .works-content .row .col .Description .Description-Introduction .Description-content {padding: 0 0 30px;font-size: 16px;line-height: 2;}
 #works .works-content .row .col .Description .Description-img ul {padding: 0;}
 #works .works-content .row .col .Description .Description-img ul li {list-style: none;margin: 10px 0 0;}
 #works .works-content .row .col .Description .Description-img ul li  img {max-width: 100%;max-height: 100%;}
@@ -200,7 +200,7 @@ body {
 }
 
 /* footer */
-.footer {position: relative;margin: 0 auto;background-color: #f9f9f9;z-index: 4444;}
+.footer {position: relative;margin: 0 auto;background-color: #f9f9f9;z-index: 66666;}
 .footer-content {max-width: 1200px;margin: 0 auto;}
 .footer-content .row {text-align: center;padding: 1%;}
 .footer-content .row .col {font-size: 13px;}

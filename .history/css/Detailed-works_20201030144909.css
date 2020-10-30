@@ -132,10 +132,9 @@ body {
 #works .works-content .row .col {padding-left: 0;padding-right: 0;}
 #works .works-content .row .col .Description {max-width: 860px;margin: 0 auto;}#works .works-content .row .col .Description .Description-Introduction
 #works .works-content .row .col .Description .Description-Introduction {padding: 13%;}
-#works .works-content .row .col .Description .Description-Introduction .Description-title {font-size: 22px;padding: 4rem 0;}
-#works .works-content .row .col .Description .Description-Introduction .Description-title::after {content:"";display: inline-block;position: relative;background-color: #fff100;width: 0;height: 2px;top: 10px;right: 22%;}
-#works .works-content .row .col .Description .Description-Introduction .Description-title:hover::after {opacity: 1;transition: width 3s;width: 240px;}
-#works .works-content .row .col .Description .Description-Introduction .Description-content {padding: 0 0 30px;font-size: 16px;line-height: 2;}
+#works .works-content .row .col .Description .Description-Introduction .Description-title {font-size: 22px;padding: 30px 0;}
+#works .works-content .row .col .Description .Description-Introduction .Description-title:hover::after {content:"";;display: inline-block;position: absolute;border-bottom: 2px solid #fff100;opacity: 1;transition: all 5s ease-in 0s;}
+#works .works-content .row .col .Description .Description-Introduction .Description-content {padding: 0 0 30px;font-size: 16px;}
 #works .works-content .row .col .Description .Description-img ul {padding: 0;}
 #works .works-content .row .col .Description .Description-img ul li {list-style: none;margin: 10px 0 0;}
 #works .works-content .row .col .Description .Description-img ul li  img {max-width: 100%;max-height: 100%;}
