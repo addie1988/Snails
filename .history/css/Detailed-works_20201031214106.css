@@ -148,7 +148,6 @@ body {
 
 @media (max-width: 600px) {
   #works .works-content .row .col .Description .Description-Introduction .Description-title::before {left: 13%;}
-  #works .works-content .row .col .Description .Descr {-webkit-transform: scale(5,1);transform: scale(5,1);}
 }
 
 @media (max-width: 480px) {
