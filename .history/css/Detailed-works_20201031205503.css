@@ -132,9 +132,9 @@ body {
 #works .works-content .row .col {padding-left: 0;padding-right: 0;}
 #works .works-content .row .col .Description {max-width: 860px;margin: 0 auto;}#works .works-content .row .col .Description .Description-Introduction
 #works .works-content .row .col .Description .Description-Introduction {padding: 13%;}
-#works .works-content .row .col .Description .Description-Introduction .Description-title {font-size: 22px;padding: 4rem 0;width: 250px;height: 50px;display: inline-block;cursor: pointer;}
-#works .works-content .row .col .Description .Description-Introduction .Description-title::before {content: "";position: absolute;top: 100px;left: 20%;width: 9%;height: 2px;opacity: 0;border-top-width: 1px;border-bottom-width: 1px;border-top-style: double;border-bottom-style: double;border-top-color: #fff100;border-bottom-color: #fff100;transform: scale(1,1);}
-#works .works-content .row .col .Description .Description-Introduction .Description-title:hover::before {transform: scale(3,1);opacity: 1;transition: all 1s ease-in-out;}
+#works .works-content .row .col .Description .Description-Introduction .Description-title {font-size: 22px;padding: 4rem 0;max-width: 240px;display: inline-block;}
+#works .works-content .row .col .Description .Description-Introduction .Description-title::before {content: "";max-width: 40px;position: absolute;border-top-width: 1px;border-bottom-width: 1px;border-top-color: #fff100;border-bottom-color: #fff100;}
+#works .works-content .row .col .Description .Description-Introduction .Description-title:hover::before {}
 #works .works-content .row .col .Description .Description-Introduction .Description-content {padding: 0 0 30px;font-size: 16px;line-height: 2;}
 #works .works-content .row .col .Description .Description-img ul {padding: 0;}
 #works .works-content .row .col .Description .Description-img ul li {list-style: none;margin: 10px 0 0;}
