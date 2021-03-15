@@ -257,7 +257,7 @@ label:hover {cursor: pointer;}
 .service-background {position: absolute;top: 0;left: 0;width: calc(66% + 100px);height: calc(81% + 100px);overflow: hidden;z-index: -4;}
 .service-background ul {padding: 0;background-color: white;}
 .service-background ul li {list-style: none;}
-.service-background ul li svg {animation:drift 40s linear infinite;}
+.service-background ul li svg {animation:drift 16s linear infinite;}
 
 @media (max-width: 768px) {
   #service .service-content .row .col-8 {display: flex;justify-content: flex-end;}
