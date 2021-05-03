@@ -76,7 +76,7 @@ body {
     }
     100% {
       opacity: 0;
-      transform: translateY(40px) rotate(45deg);
+      transform: translateY(100px) rotate(45deg);
     }
 }
 /* 箭頭 end */
