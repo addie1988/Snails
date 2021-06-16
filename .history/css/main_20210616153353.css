@@ -15,7 +15,7 @@ body {
 .load {position: fixed;background: #fff100;z-index: 99999;top: 0;left: 0;right: 0;bottom: 0;}
 .loader-content {position: relative;margin: 0 auto;display: inline-block;width: 100%;height: 100%;}
 .loader-content .loader-one {display: flex;justify-content: center;align-items: center;width: 100%;height: 100%;}
-.loader-one section {position: absolute;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;top: 0;}
+.loader-one section {position: absolute;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;}
 .loader-one section img {max-width: 100%;max-height: 100%;}
 /* loading end */
 
@@ -238,8 +238,8 @@ body {
 #service .service-content .row {padding: 12rem 0;}
 #service .service-content .row::after {content: "";width: calc(29% + 100px);height: calc(10% + 100px);display: inline-block;background-color: #f8f9f8;position: absolute;right: 0;top: 154px;z-index: -1;}
 #service .service-content .row .col-8  {padding-left: 0;padding-right: 0;-webkit-animation-name: "left";-webkit-animation-duration: 4s;-webkit-animation-iteration-count: 1;}
-#service .service-content .row .col-8 .service-Collapse {width: 100%;float: right;display: flex;align-items: first baseline;justify-content: space-evenly;flex-wrap: wrap;}
-#service .service-content .row .col-8 .service-Collapse .service-Collapse-style {margin: 1rem;width: 28%;}
+#service .service-content .row .col-8 .service-Collapse {width: 100%;float: right;display: flex;align-items: first baseline;justify-content: space-evenly;}
+#service .service-content .row .col-8 .service-Collapse .service-Collapse-style {margin: 1rem;width: 40%;}
 #service .service-content .row .col-4  {padding-left: 0;padding-right: 0;-webkit-animation-name: "right"; -webkit-animation-duration: 4s; -webkit-animation-iteration-count: 1;}
 #service .service-content .row .col-4 .service-title {position: relative;}
 #service .service-content .row .col-4 .service-title h4 {position: absolute; right: 0px;font-size: 90px;margin: 0;color: black;top: -94px;}
@@ -262,8 +262,8 @@ label:hover {cursor: pointer;}
 
 @media (max-width: 768px) {
   #service .service-content .row .col-8 {display: flex;justify-content: flex-end;}
-  #service .service-content .row .col-8 .service-Collapse {margin: 0;padding: 0 4rem;}
-  #service .service-content .row .col-8 .service-Collapse .service-Collapse-style {width: 60%;}
+  #service .service-content .row .col-8 .service-Collapse {margin: 0;}
+  #service .service-content .row .col-8 .service-Collapse .service-Collapse-style {width: 600%;}
 }
 @media (max-width: 600px) {
   #service .service-content .row {padding: 7rem 0;flex-direction: column-reverse;}
