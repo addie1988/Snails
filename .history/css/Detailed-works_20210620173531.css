@@ -78,6 +78,11 @@ body {
   background-color: #fff100;
   padding: 30px 20px;
   opacity: 0.3;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
 }
 .Menu-content:hover {
   opacity: 1;
