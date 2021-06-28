@@ -28,7 +28,11 @@
 
 <body>
     <div class="load">
-        <section><img src="./images/snails-web.png"></section>
+        <div class="loader-content">
+            <div class="loader-one">
+                <section><img src="./images/snails-web.png"></section>
+            </div>
+        </div>
     </div>
 
     <!-- top -->
@@ -229,10 +233,11 @@
 
     <!-- loading -->
     <script>
-        function myload() {
-            $(".load").fadeOut(3000);
-        }
-        window.onload = myload;
+       jQuery(document).ready(function(){
+    jQuery(window).load(function(){  //load函數
+        jQuery(".load").hide();
+    });
+});
     </script>
 
     <!-- svg -->

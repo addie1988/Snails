@@ -43,10 +43,7 @@ body {
   height: 100%;
   display: inline-block;
   z-index: -1;
-  top: 0;
-  right: 0;
-  opacity: .7;
-  background: url(../images/snails-web-1.png)no-repeat;
+  background: url(../images/snails-web-1.png);
 }
 
 .load section img {

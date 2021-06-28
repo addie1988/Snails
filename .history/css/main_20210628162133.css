@@ -15,43 +15,32 @@ body {
 
 /* loading */
 .load {
-  background: black;
+  background: #fff100;
   z-index: 99999;
   display: inline-block;
-  position: fixed;
+  position:fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-
-.load section {
-  margin: 0 auto;
+.loader-content {
+  position: absolute;
+}
+.loader-content .loader-one {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
-
-.load section::before {
-  content: "";
-  position: absolute;
+.loader-one section {
+  margin: 0 auto;
+}
+.loader-one section img {
   width: 100%;
   height: 100%;
-  display: inline-block;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  opacity: .7;
-  background: url(../images/snails-web-1.png)no-repeat;
-}
-
-.load section img {
-  max-width: 100%;
-  max-height: 100%;
 }
 /* loading end */
 
